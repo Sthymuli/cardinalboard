@@ -476,7 +476,7 @@
 	(footprint "sthymuli_jlc:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "073f0fce-d532-4dd4-99d2-b9fa1c7118bf")
-		(at 150.427183 100.328659)
+		(at 150.442183 101.768659)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
@@ -1156,10 +1156,210 @@
 			)
 		)
 	)
+	(footprint "Panelization:MouseBite-Slot_2.0x4.5mm_outset_D0.5mm_P0.85mm_7h"
+		(layer "F.Cu")
+		(uuid "09b29bc2-c6a4-4fca-9c70-c34e397bf69a")
+		(at 146.974765 95.498659)
+		(descr "Break slot 2mm, standard: L=4.5mm, holes outset (sand flat with edge)")
+		(tags "mousebite stamp slot break tab 2mm edge outset")
+		(property "Reference" "REF**"
+			(at 0 -1 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0a773957-295b-459e-b0fb-6e008237544c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MouseBite-Slot_2.0x4.5mm_outset_D0.5mm_P0.85mm_7h"
+			(at 0 -1 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e715189-4fa3-460d-9bd2-01bb1c9fe9d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88058661-2983-469a-aba6-191054d9b2db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dc6d636-b1d8-48c7-beae-11612dec3167")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -3.25 -2)
+			(mid -2.25 -1)
+			(end -3.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "11a38ec6-3377-4142-9f3b-a01cb2ba7fe6")
+		)
+		(fp_arc
+			(start 3.25 0)
+			(mid 2.25 -1)
+			(end 3.25 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0fb8133f-d1b8-4073-a6d8-ce2195c5e1a6")
+		)
+		(fp_rect
+			(start -2.9 -2.1)
+			(end 2.9 0.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "9d28fc1a-e38c-4c7e-9c2f-29751d0f8a8c")
+		)
+		(fp_rect
+			(start -2.9 -2.1)
+			(end 2.9 0.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d72d5504-9b46-4014-85ed-97695a81c834")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.55 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0d0412c8-aeb5-4884-93dd-11c964a787e9")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.55 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "76e51f26-b565-4a79-9b5c-f03134b792cb")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.7 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "573bc927-292e-4e6c-b1b7-0a3c75e181b1")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.7 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c4bfe239-cd16-4290-8d7a-106b0ce5b1ad")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.85 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6f12631d-6b9f-4b2a-beeb-288357e79644")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.85 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "07683ba8-0fad-4bce-9a53-ce0de07c7ea1")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1460131a-7a1c-4bad-ac19-814dd4a4bdcb")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "33bab6db-5649-45c2-b9ce-43e3f95c0285")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.85 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e0cb6b83-a0d3-4c5c-9216-3ebf492f260a")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.85 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a3d21b22-6d63-4b50-9c15-f8a69f3eb407")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.7 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "99ef0b94-5797-4ba3-8ca6-b5eda7c3c752")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.7 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "21766e75-e132-4e85-9f29-f391665058cc")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.55 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2b4496ca-a255-4a18-afdc-d3d158e94d39")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.55 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "94bdc462-24bd-4ecc-8ca7-c5deddc510b4")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "sthymuli_jlc:LGA-16_L6.4-W3.0_VL53L5CXV0GC-1"
 		(layer "F.Cu")
 		(uuid "1f96c764-c87f-4a47-b407-de6450043720")
-		(at 146.724765 100.253897 90)
+		(at 146.739765 101.693897 90)
 		(property "Reference" "U4"
 			(at 0.75 -2.4 90)
 			(layer "F.SilkS")
@@ -1670,7 +1870,7 @@
 	(footprint "sthymuli_jlc:HDR-SMD_5P-P2.54-H-M-W13.3-N"
 		(layer "F.Cu")
 		(uuid "2167b433-4f7c-44ca-918d-54d7df33d68f")
-		(at 154.352265 100.529159 90)
+		(at 154.367265 101.969159 90)
 		(property "Reference" "J1"
 			(at -5.334293 -2.629918 90)
 			(layer "F.SilkS")
@@ -2165,7 +2365,7 @@
 	(footprint "sthymuli_jlc:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2225fc7d-6137-48bc-afb3-f1bafc4d45d6")
-		(at 150.447183 98.328659 180)
+		(at 150.462183 99.768659 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -11247,7 +11447,7 @@
 	(footprint "sthymuli_jlc:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cfb1a9b1-fcec-4fca-a963-020076a2424b")
-		(at 150.507183 102.328659 180)
+		(at 150.522183 103.768659 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -11626,7 +11826,7 @@
 	(footprint "sthymuli_jlc:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d06ad82a-07f2-4140-a72e-be198a5992b9")
-		(at 150.507183 103.828659 180)
+		(at 150.522183 105.268659 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -12328,6 +12528,206 @@
 			)
 		)
 	)
+	(footprint "Panelization:MouseBite-Slot_2.0x4.5mm_outset_D0.5mm_P0.85mm_7h"
+		(layer "F.Cu")
+		(uuid "d52d0973-398d-4a2e-a3ce-a74f8267a847")
+		(at 156.904765 95.418659)
+		(descr "Break slot 2mm, standard: L=4.5mm, holes outset (sand flat with edge)")
+		(tags "mousebite stamp slot break tab 2mm edge outset")
+		(property "Reference" "REF**"
+			(at 0 -1 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1bb90ecd-09d7-4e57-b31f-bf6d68178081")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MouseBite-Slot_2.0x4.5mm_outset_D0.5mm_P0.85mm_7h"
+			(at 0 -1 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3b03a15-2def-4141-9522-764e8bf2dd03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e87e3ff-3dab-452d-aab9-6094c591817e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73604bb0-2ca8-4d14-a8d8-489f9cf64daf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_arc
+			(start -3.25 -2)
+			(mid -2.25 -1)
+			(end -3.25 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4b0b0e9f-3e85-4247-b648-de5e44e00628")
+		)
+		(fp_arc
+			(start 3.25 0)
+			(mid 2.25 -1)
+			(end 3.25 -2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e091b38f-9505-4caa-bfbe-2b6ad2a1d1eb")
+		)
+		(fp_rect
+			(start -2.9 -2.1)
+			(end 2.9 0.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "94ddbe12-6cdf-40c5-b33a-ceddddc6ff13")
+		)
+		(fp_rect
+			(start -2.9 -2.1)
+			(end 2.9 0.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2930860e-90ca-4188-9959-d014dd0d4760")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.55 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "bec5a548-f405-4454-9bcf-ccdb54f763ca")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.55 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "81201b33-c279-474a-bc4b-15e8e069b239")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.7 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ebbfe921-7476-4522-bfbd-f18a9cf4341a")
+		)
+		(pad "" np_thru_hole circle
+			(at -1.7 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a6155b5b-6eab-425e-81ca-5a33c48944c4")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.85 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ab36d5d3-3926-4870-a1a1-16ddda8bff14")
+		)
+		(pad "" np_thru_hole circle
+			(at -0.85 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "766600c1-7cf6-4ac1-8fcd-23cec9dcb107")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "dcb6e8f1-991c-44c9-8755-f12c446a9db5")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d00c144d-9384-4d3a-a59c-33f73c4371a6")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.85 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "42a5d6dc-67c8-45ed-aeaf-6499474e46ef")
+		)
+		(pad "" np_thru_hole circle
+			(at 0.85 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "00739331-718f-421a-8d27-c256aa781005")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.7 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "50606abb-9b74-427c-a9ff-d6d98fc545d8")
+		)
+		(pad "" np_thru_hole circle
+			(at 1.7 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1b4e2c25-d48e-47e3-8d78-c6c7a0f53808")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.55 -1.75 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "66fb338f-62f3-490d-850c-6ac8d3604132")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.55 -0.25 180)
+			(size 0.5 0.5)
+			(drill 0.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1fe686e9-6759-4084-8c84-9348b6178f7f")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "edae6dea-30e4-444f-8911-034e466eaed7")
@@ -12997,7 +13397,7 @@
 	(footprint "sthymuli_jlc:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f1d90ea7-5896-4e21-a7b2-4cc6f39a00c4")
-		(at 150.449765 96.828659 180)
+		(at 150.464765 98.268659 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -13012,7 +13412,7 @@
 			)
 		)
 		(property "Value" "4.7uF 16V"
-			(at 1.775 2 0)
+			(at 2.2 1.4 0)
 			(layer "F.Fab")
 			(uuid "ff2fc817-3934-4408-8f71-33623d329c00")
 			(effects
@@ -13744,7 +14144,7 @@
 	(footprint "sthymuli_jlc:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "400c6abf-f1d8-4ad2-9605-c4f3e391085a")
-		(at 150.399765 100.328659)
+		(at 150.414765 101.768659)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -14104,7 +14504,7 @@
 	(footprint "sthymuli_jlc:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "5f5ca558-e7f0-4052-a2f1-69ea8cd25fa2")
-		(at 150.349765 96.828659 180)
+		(at 150.364765 98.268659 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -14730,7 +15130,7 @@
 	(footprint "sthymuli_jlc:HDR-SMD_5P-P2.54-H-M-W13.3-N"
 		(layer "B.Cu")
 		(uuid "7c5e947e-bf69-49c5-85b6-232a1c7db98c")
-		(at 154.304683 100.494366 -90)
+		(at 154.319683 101.934366 -90)
 		(property "Reference" "J1"
 			(at -5.334293 2.629918 90)
 			(layer "B.SilkS")
@@ -15244,7 +15644,7 @@
 	(footprint "sthymuli_jlc:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "84bf0028-9537-45f2-bdde-d64c96d2d785")
-		(at 150.399765 98.328659)
+		(at 150.414765 99.768659)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C18"
@@ -15966,7 +16366,7 @@
 	(footprint "sthymuli_jlc:Avago_APDS-9960"
 		(layer "B.Cu")
 		(uuid "bbc05617-bf78-48e0-bf7b-98fa53215676")
-		(at 146.874765 100.283659 -90)
+		(at 146.889765 101.723659 -90)
 		(descr "Digital Proximity, Ambient Light, RGB and Gesture Sensor (https://docs.broadcom.com/doc/AV02-4191EN)")
 		(tags "DFN Sensor optical IR")
 		(property "Reference" "U1"
@@ -16335,7 +16735,7 @@
 	(footprint "sthymuli_jlc:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "d8cf06d7-9e30-4e1e-b029-8740178f8f36")
-		(at 150.174765 103.828659)
+		(at 150.189765 105.268659)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -16695,7 +17095,7 @@
 	(footprint "sthymuli_jlc:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "f092adfd-befc-4457-8b0f-0bb78442b7c9")
-		(at 150.174765 102.328659)
+		(at 150.189765 103.768659)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -17056,7 +17456,7 @@
 		(start 82.459558 90.031077)
 		(end 82.459558 91.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17067,7 +17467,7 @@
 			(xy 82.459558 90.031077) (xy 82.459558 88.728929) (xy 82.713897 87.43923) (xy 83.208258 86.234574)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17078,7 +17478,7 @@
 			(xy 83.208258 86.234574) (xy 83.606008 85.265337) (xy 84.153617 84.3646) (xy 84.831013 83.565375)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17089,7 +17489,7 @@
 			(xy 84.831013 83.565375) (xy 85.50841 82.766151) (xy 86.307217 82.078322) (xy 87.198159 81.527097)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17100,7 +17500,7 @@
 			(xy 95.435992 76.865137) (xy 92.557619 78.349199) (xy 89.741288 79.953667) (xy 87.198159 81.527097)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17111,7 +17511,7 @@
 		(mid 86.852956 102.359869)
 		(end 82.459558 91.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17121,150 +17521,308 @@
 		(start 97.459558 106.753267)
 		(end 98.525638 106.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "465d2465-45a0-4947-b708-4d674cfcf98e")
 	)
 	(gr_arc
-		(start 103.284127 105.548537)
-		(mid 100.97995 106.447407)
+		(start 100.97995 106.447407)
+		(mid 99.762289 106.676524)
 		(end 98.525638 106.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "c9551918-b5a7-4237-83a6-0e05694cac14")
+	)
+	(gr_line
+		(start 100.97995 106.447407)
+		(end 111.064765 101.778659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "18aaba20-818c-4863-aa0d-a9018f81b45f")
 	)
 	(gr_curve
 		(pts
 			(xy 104.674765 72.578659) (xy 101.730727 73.798812) (xy 98.546843 75.261211) (xy 95.435992 76.865137)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "dee29f2d-d9bd-4d41-9281-4b5945be5cfd")
+	)
+	(gr_line
+		(start 111.064765 101.778659)
+		(end 118.294765 98.848659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0f5366f9-5f83-4eec-8ca5-6b53d38f01cc")
 	)
 	(gr_curve
 		(pts
 			(xy 115.963064 68.530659) (xy 112.026729 69.730547) (xy 108.23343 71.103774) (xy 104.674765 72.578659)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "380d7fb2-41ee-4e3e-ba90-ad0b95453409")
+	)
+	(gr_line
+		(start 118.294765 98.848659)
+		(end 125.254765 96.718659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cc943247-4a94-4256-b0ec-d31a0d2233d1")
+	)
+	(gr_line
+		(start 125.254765 96.718659)
+		(end 132.704765 95.038659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "56dc9a38-5de2-43c5-904f-c8c872811763")
 	)
 	(gr_curve
 		(pts
 			(xy 128.099202 65.488642) (xy 123.978798 66.304308) (xy 119.8994 67.330771) (xy 115.963064 68.530659)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "7d5446fc-ecb6-4563-a861-08c8feecc187")
+	)
+	(gr_line
+		(start 132.704765 95.038659)
+		(end 137.314765 94.188659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "81d29882-892a-41f9-a11e-7c3cf60cb4cd")
+	)
+	(gr_line
+		(start 137.314765 94.188659)
+		(end 143.724765 93.498659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d5f1235f-5b6a-4367-97fc-99a6e12aff69")
 	)
 	(gr_curve
 		(pts
 			(xy 140.479702 63.67522) (xy 136.382759 64.067736) (xy 132.219606 64.672976) (xy 128.099202 65.488642)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "38ed76d6-0fb7-4cb2-a3d8-ac1fa769f408")
 	)
-	(gr_rect
-		(start 143.674765 94.328659)
-		(end 160.424764 106.828659)
+	(gr_line
+		(start 143.714765 108.168659)
+		(end 160.164765 108.168659)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "fef06222-bf23-4bad-8296-979e546449cf")
+		(uuid "eb1c5a7e-f4e7-4724-ad5c-3a00db077b5d")
+	)
+	(gr_line
+		(start 143.724765 95.498659)
+		(end 143.714765 108.168659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5b782792-ace3-4e5f-af02-1e85224387ec")
+	)
+	(gr_line
+		(start 150.224765 93.498659)
+		(end 153.654765 93.418659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "87786d70-831f-4f62-945d-2a385004eb96")
 	)
 	(gr_curve
 		(pts
 			(xy 152.459558 63.102776) (xy 148.607366 63.102776) (xy 144.576645 63.282705) (xy 140.479702 63.67522)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "a8f73597-7b3a-4991-923b-658dac225e96")
+	)
+	(gr_line
+		(start 153.654765 95.418659)
+		(end 150.224765 95.498659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a7f1fbca-0994-444b-af3b-e91af9563757")
+	)
+	(gr_line
+		(start 160.154765 93.418659)
+		(end 166.194765 94.078659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6e5afb44-f3fc-4b35-a3fc-b23ac0dbcc32")
+	)
+	(gr_line
+		(start 160.164765 108.168659)
+		(end 160.154765 95.418659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f7ca85db-5407-4260-ac5c-09618dc341e5")
 	)
 	(gr_curve
 		(pts
 			(xy 164.439414 63.67522) (xy 160.342471 63.282705) (xy 156.31175 63.102776) (xy 152.459558 63.102776)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "e8b97711-87ab-4b5f-ba51-881c9623825a")
+	)
+	(gr_line
+		(start 166.194765 94.078659)
+		(end 172.874765 95.098659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "97ef1fb4-ccfd-493f-8063-958e13125757")
+	)
+	(gr_line
+		(start 172.874765 95.098659)
+		(end 180.834765 97.078659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0224ee00-b007-438f-8111-caecd81f8008")
 	)
 	(gr_curve
 		(pts
 			(xy 176.819914 65.488642) (xy 172.69951 64.672976) (xy 168.536357 64.067736) (xy 164.439414 63.67522)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "288c919a-3918-462c-b37a-20a585fc5cea")
+	)
+	(gr_line
+		(start 180.834765 97.078659)
+		(end 186.814765 98.938659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cafd99db-2663-4e31-8449-dd4c3fa81fc8")
+	)
+	(gr_line
+		(start 186.814765 98.938659)
+		(end 192.634765 101.178659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "42e6ec10-a77e-4e6f-8694-d728d92f6def")
 	)
 	(gr_curve
 		(pts
 			(xy 188.956052 68.530659) (xy 185.019716 67.330771) (xy 180.940318 66.304308) (xy 176.819914 65.488642)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "6f8550bd-a6a6-4bf8-b5ca-8e88af0b565d")
+	)
+	(gr_line
+		(start 192.634765 101.178659)
+		(end 198.834765 104.128659)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2dad055a-9aef-4e27-bd6b-942d0491668d")
+	)
+	(gr_line
+		(start 198.834765 104.128659)
+		(end 203.361834 106.282668)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "96ba9d75-d969-4d00-b1b4-5599fb73b3fd")
 	)
 	(gr_curve
 		(pts
 			(xy 200.244351 72.578659) (xy 196.685686 71.103774) (xy 192.892387 69.730547) (xy 188.956052 68.530659)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "a71c5985-864b-4d9e-bb49-83506c1e0d55")
 	)
-	(gr_curve
-		(pts
-			(xy 201.634989 105.548537) (xy 171.03578 88.993505) (xy 133.883336 88.993505) (xy 103.284127 105.548537)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "48e3bc8e-81e2-4d38-abd5-a605c2b507e5")
-	)
 	(gr_arc
 		(start 206.393478 106.753267)
-		(mid 203.939164 106.447412)
-		(end 201.634989 105.548537)
+		(mid 204.859501 106.634922)
+		(end 203.361834 106.282668)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17274,7 +17832,7 @@
 		(start 206.393478 106.753267)
 		(end 207.459558 106.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17285,7 +17843,7 @@
 			(xy 209.483124 76.865137) (xy 206.372273 75.261211) (xy 203.188389 73.798812) (xy 200.244351 72.578659)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17296,7 +17854,7 @@
 		(mid 208.76309 106.69652)
 		(end 207.459558 106.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17307,7 +17865,7 @@
 			(xy 210.63824 106.349669) (xy 210.452314 106.432047) (xy 210.257047 106.491496) (xy 210.056759 106.526707)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17318,7 +17876,7 @@
 			(xy 211.160228 106.037699) (xy 210.999546 106.162494) (xy 210.824253 106.267253) (xy 210.63824 106.349669)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17329,7 +17887,7 @@
 			(xy 211.795436 105.307503) (xy 211.633243 105.589907) (xy 211.417439 105.837933) (xy 211.160228 106.037699)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17340,7 +17898,7 @@
 			(xy 212.045081 103.427315) (xy 212.127931 103.741835) (xy 212.148514 104.069508) (xy 212.105696 104.391928)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17351,7 +17909,7 @@
 			(xy 212.105696 104.391928) (xy 212.062872 104.714402) (xy 211.957452 105.025406) (xy 211.795436 105.307503)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17362,7 +17920,7 @@
 			(xy 213.517035 96.876411) (xy 211.991443 98.673985) (xy 211.439747 101.1293) (xy 212.045081 103.427315)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17373,7 +17931,7 @@
 			(xy 217.720957 81.527097) (xy 215.177828 79.953667) (xy 212.361497 78.349199) (xy 209.483124 76.865137)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17384,7 +17942,7 @@
 			(xy 217.720957 81.527097) (xy 218.828302 82.212209) (xy 219.791241 83.107061) (xy 220.555576 84.161282)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17395,7 +17953,7 @@
 			(xy 219.653187 94.462829) (xy 217.342489 94.174212) (xy 215.042626 95.078836) (xy 213.517035 96.876411)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17406,7 +17964,7 @@
 			(xy 220.274082 94.460973) (xy 220.068 94.487959) (xy 219.859425 94.48859) (xy 219.653187 94.462829)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17417,7 +17975,7 @@
 			(xy 220.555576 84.161282) (xy 221.170541 85.009483) (xy 221.648406 85.949081) (xy 221.97166 86.945642)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17428,7 +17986,7 @@
 			(xy 220.875733 94.302685) (xy 220.682647 94.380692) (xy 220.480557 94.433936) (xy 220.274082 94.460973)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17439,7 +17997,7 @@
 			(xy 221.689206 93.76885) (xy 221.455416 93.998298) (xy 221.179359 94.180021) (xy 220.875733 94.302685)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17450,7 +18008,7 @@
 			(xy 221.97166 86.945642) (xy 222.294914 87.942203) (xy 222.459558 88.983401) (xy 222.459558 90.031077)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17461,7 +18019,7 @@
 			(xy 222.249863 92.946277) (xy 222.118389 93.25443) (xy 221.928238 93.534258) (xy 221.689206 93.76885)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17472,7 +18030,7 @@
 			(xy 222.458124 91.960656) (xy 222.453439 92.299514) (xy 222.382835 92.634615) (xy 222.249863 92.946277)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17483,7 +18041,7 @@
 		(mid 222.4592 91.856964)
 		(end 222.458124 91.960656)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -17493,15 +18051,15 @@
 		(start 222.459558 91.753267)
 		(end 222.459558 90.031077)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "a0f4c5ce-3501-40e9-b5e6-b6233ac8a57f")
 	)
 	(gr_rect
-		(start 82.174765 63.078659)
-		(end 223.174765 107.078659)
+		(start 82.239765 63.192775)
+		(end 223.239765 108.268659)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -17514,7 +18072,7 @@
 		(start 82.459558 90.031077)
 		(end 82.459558 91.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17525,7 +18083,7 @@
 			(xy 82.459558 90.031077) (xy 82.459558 88.728929) (xy 82.713897 87.43923) (xy 83.208258 86.234574)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17536,7 +18094,7 @@
 			(xy 83.208258 86.234574) (xy 83.606008 85.265337) (xy 84.153617 84.3646) (xy 84.831013 83.565375)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17547,7 +18105,7 @@
 			(xy 84.831013 83.565375) (xy 85.50841 82.766151) (xy 86.307217 82.078322) (xy 87.198159 81.527097)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17557,7 +18115,7 @@
 		(start 84.959558 85.217479)
 		(end 84.959558 90.217479)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17567,7 +18125,7 @@
 		(start 84.959558 90.217479)
 		(end 89.959558 90.217479)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17577,7 +18135,7 @@
 		(start 89.959558 85.217479)
 		(end 84.959558 85.217479)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17587,7 +18145,7 @@
 		(start 89.959558 90.217479)
 		(end 89.959558 85.217479)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17597,7 +18155,7 @@
 		(start 93.709558 100.041741)
 		(end 93.709558 105.041741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17607,7 +18165,7 @@
 		(start 93.709558 105.041741)
 		(end 98.709558 105.041741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17618,7 +18176,7 @@
 			(xy 95.435992 76.865137) (xy 92.557619 78.349199) (xy 89.741288 79.953667) (xy 87.198159 81.527097)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17626,10 +18184,10 @@
 	)
 	(gr_arc
 		(start 97.459558 106.753267)
-		(mid 86.852956 102.359869)
+		(mid 86.852959 102.359868)
 		(end 82.459558 91.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17639,7 +18197,7 @@
 		(start 97.459558 106.753267)
 		(end 98.525638 106.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17649,7 +18207,7 @@
 		(start 98.709558 100.041741)
 		(end 93.709558 100.041741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17659,7 +18217,7 @@
 		(start 98.709558 105.041741)
 		(end 98.709558 100.041741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17667,10 +18225,10 @@
 	)
 	(gr_arc
 		(start 103.284127 105.548537)
-		(mid 100.97995 106.447407)
+		(mid 100.979952 106.447418)
 		(end 98.525638 106.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17681,7 +18239,7 @@
 			(xy 104.674765 72.578659) (xy 101.730727 73.798812) (xy 98.546843 75.261211) (xy 95.435992 76.865137)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17691,7 +18249,7 @@
 		(start 109.787349 74.404992)
 		(end 109.787349 79.404992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17701,7 +18259,7 @@
 		(start 109.787349 79.404992)
 		(end 114.787349 79.404992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17711,7 +18269,7 @@
 		(start 114.787349 74.404992)
 		(end 109.787349 74.404992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17721,7 +18279,7 @@
 		(start 114.787349 79.404992)
 		(end 114.787349 74.404992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17731,7 +18289,7 @@
 		(start 115.195146 90.68478)
 		(end 115.195146 95.68478)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17741,7 +18299,7 @@
 		(start 115.195146 95.68478)
 		(end 120.195146 95.68478)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17752,7 +18310,7 @@
 			(xy 115.963064 68.530659) (xy 112.026729 69.730547) (xy 108.23343 71.103774) (xy 104.674765 72.578659)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17762,7 +18320,7 @@
 		(start 120.195146 90.68478)
 		(end 115.195146 90.68478)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17772,7 +18330,7 @@
 		(start 120.195146 95.68478)
 		(end 120.195146 90.68478)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17783,7 +18341,7 @@
 			(xy 128.099202 65.488642) (xy 123.978798 66.304308) (xy 119.8994 67.330771) (xy 115.963064 68.530659)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17793,7 +18351,7 @@
 		(start 136.370858 68.877969)
 		(end 136.370858 73.877969)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17803,7 +18361,7 @@
 		(start 136.370858 73.877969)
 		(end 141.370858 73.877969)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17813,7 +18371,7 @@
 		(start 138.200106 85.90178)
 		(end 138.200106 90.90178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17823,7 +18381,7 @@
 		(start 138.200106 90.90178)
 		(end 143.200106 90.90178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17834,7 +18392,7 @@
 			(xy 140.479702 63.67522) (xy 136.382759 64.067736) (xy 132.219606 64.672976) (xy 128.099202 65.488642)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17844,7 +18402,7 @@
 		(start 141.370858 68.877969)
 		(end 136.370858 68.877969)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17854,7 +18412,7 @@
 		(start 141.370858 73.877969)
 		(end 141.370858 68.877969)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17864,7 +18422,7 @@
 		(start 143.200106 85.90178)
 		(end 138.200106 85.90178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17874,7 +18432,7 @@
 		(start 143.200106 90.90178)
 		(end 143.200106 85.90178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17885,7 +18443,7 @@
 			(xy 152.459558 63.102776) (xy 148.607366 63.102776) (xy 144.576645 63.282705) (xy 140.479702 63.67522)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17895,7 +18453,7 @@
 		(start 161.71901 85.90178)
 		(end 161.71901 90.90178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17905,7 +18463,7 @@
 		(start 161.71901 90.90178)
 		(end 166.71901 90.90178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17915,7 +18473,7 @@
 		(start 163.548258 68.877969)
 		(end 163.548258 73.877969)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17925,7 +18483,7 @@
 		(start 163.548258 73.877969)
 		(end 168.548258 73.877969)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17936,7 +18494,7 @@
 			(xy 164.439414 63.67522) (xy 160.342471 63.282705) (xy 156.31175 63.102776) (xy 152.459558 63.102776)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17946,7 +18504,7 @@
 		(start 166.71901 85.90178)
 		(end 161.71901 85.90178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17956,7 +18514,7 @@
 		(start 166.71901 90.90178)
 		(end 166.71901 85.90178)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17966,7 +18524,7 @@
 		(start 168.548258 68.877969)
 		(end 163.548258 68.877969)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17976,7 +18534,7 @@
 		(start 168.548258 73.877969)
 		(end 168.548258 68.877969)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17987,7 +18545,7 @@
 			(xy 176.819914 65.488642) (xy 172.69951 64.672976) (xy 168.536357 64.067736) (xy 164.439414 63.67522)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -17997,7 +18555,7 @@
 		(start 184.72397 90.68478)
 		(end 184.72397 95.68478)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18007,7 +18565,7 @@
 		(start 184.72397 95.68478)
 		(end 189.72397 95.68478)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18018,7 +18576,7 @@
 			(xy 188.956052 68.530659) (xy 185.019716 67.330771) (xy 180.940318 66.304308) (xy 176.819914 65.488642)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18028,7 +18586,7 @@
 		(start 189.72397 90.68478)
 		(end 184.72397 90.68478)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18038,7 +18596,7 @@
 		(start 189.72397 95.68478)
 		(end 189.72397 90.68478)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18048,7 +18606,7 @@
 		(start 190.131767 74.404992)
 		(end 190.131767 79.404992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18058,7 +18616,7 @@
 		(start 190.131767 79.404992)
 		(end 195.131767 79.404992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18068,7 +18626,7 @@
 		(start 195.131767 74.404992)
 		(end 190.131767 74.404992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18078,7 +18636,7 @@
 		(start 195.131767 79.404992)
 		(end 195.131767 74.404992)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18089,7 +18647,7 @@
 			(xy 200.244351 72.578659) (xy 196.685686 71.103774) (xy 192.892387 69.730547) (xy 188.956052 68.530659)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18100,7 +18658,7 @@
 			(xy 201.634989 105.548537) (xy 171.03578 88.993505) (xy 133.883336 88.993505) (xy 103.284127 105.548537)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18110,7 +18668,7 @@
 		(start 206.209558 100.041741)
 		(end 206.209558 105.041741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18120,7 +18678,7 @@
 		(start 206.209558 105.041741)
 		(end 211.209558 105.041741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18128,10 +18686,10 @@
 	)
 	(gr_arc
 		(start 206.393478 106.753267)
-		(mid 203.939164 106.447412)
+		(mid 203.939161 106.447421)
 		(end 201.634989 105.548537)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18141,7 +18699,7 @@
 		(start 206.393478 106.753267)
 		(end 207.459558 106.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18152,7 +18710,7 @@
 			(xy 209.483124 76.865137) (xy 206.372273 75.261211) (xy 203.188389 73.798812) (xy 200.244351 72.578659)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18160,10 +18718,10 @@
 	)
 	(gr_arc
 		(start 210.056759 106.526707)
-		(mid 208.76309 106.69652)
+		(mid 208.76309 106.696517)
 		(end 207.459558 106.753267)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18174,7 +18732,7 @@
 			(xy 210.63824 106.349669) (xy 210.452314 106.432047) (xy 210.257047 106.491496) (xy 210.056759 106.526707)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18185,7 +18743,7 @@
 			(xy 211.160228 106.037699) (xy 210.999546 106.162494) (xy 210.824253 106.267253) (xy 210.63824 106.349669)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18195,7 +18753,7 @@
 		(start 211.209558 100.041741)
 		(end 206.209558 100.041741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18205,7 +18763,7 @@
 		(start 211.209558 105.041741)
 		(end 211.209558 100.041741)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18216,7 +18774,7 @@
 			(xy 211.795436 105.307503) (xy 211.633243 105.589907) (xy 211.417439 105.837933) (xy 211.160228 106.037699)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18227,7 +18785,7 @@
 			(xy 212.045081 103.427315) (xy 212.127931 103.741835) (xy 212.148514 104.069508) (xy 212.105696 104.391928)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18238,7 +18796,7 @@
 			(xy 212.105696 104.391928) (xy 212.062872 104.714402) (xy 211.957452 105.025406) (xy 211.795436 105.307503)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18249,7 +18807,7 @@
 			(xy 213.517035 96.876411) (xy 211.991443 98.673985) (xy 211.439747 101.1293) (xy 212.045081 103.427315)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18259,7 +18817,7 @@
 		(start 214.959558 85.217479)
 		(end 214.959558 90.217479)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18269,7 +18827,7 @@
 		(start 214.959558 90.217479)
 		(end 219.959558 90.217479)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18280,7 +18838,7 @@
 			(xy 217.720957 81.527097) (xy 215.177828 79.953667) (xy 212.361497 78.349199) (xy 209.483124 76.865137)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18291,7 +18849,7 @@
 			(xy 217.720957 81.527097) (xy 218.828302 82.212209) (xy 219.791241 83.107061) (xy 220.555576 84.161282)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18302,7 +18860,7 @@
 			(xy 219.653187 94.462829) (xy 217.342489 94.174212) (xy 215.042626 95.078836) (xy 213.517035 96.876411)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18312,7 +18870,7 @@
 		(start 219.959558 85.217479)
 		(end 214.959558 85.217479)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18322,7 +18880,7 @@
 		(start 219.959558 90.217479)
 		(end 219.959558 85.217479)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18333,7 +18891,7 @@
 			(xy 220.274082 94.460973) (xy 220.068 94.487959) (xy 219.859425 94.48859) (xy 219.653187 94.462829)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18344,7 +18902,7 @@
 			(xy 220.555576 84.161282) (xy 221.170541 85.009483) (xy 221.648406 85.949081) (xy 221.97166 86.945642)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18355,7 +18913,7 @@
 			(xy 220.875733 94.302685) (xy 220.682647 94.380692) (xy 220.480557 94.433936) (xy 220.274082 94.460973)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18366,7 +18924,7 @@
 			(xy 221.689206 93.76885) (xy 221.455416 93.998298) (xy 221.179359 94.180021) (xy 220.875733 94.302685)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18377,7 +18935,7 @@
 			(xy 221.97166 86.945642) (xy 222.294914 87.942203) (xy 222.459558 88.983401) (xy 222.459558 90.031077)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18388,7 +18946,7 @@
 			(xy 222.249863 92.946277) (xy 222.118389 93.25443) (xy 221.928238 93.534258) (xy 221.689206 93.76885)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18399,7 +18957,7 @@
 			(xy 222.458124 91.960656) (xy 222.453439 92.299514) (xy 222.382835 92.634615) (xy 222.249863 92.946277)
 		)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18410,7 +18968,7 @@
 		(mid 222.4592 91.856964)
 		(end 222.458124 91.960656)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18420,7 +18978,7 @@
 		(start 222.459558 91.753267)
 		(end 222.459558 90.031077)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
 		(layer "User.1")
@@ -18455,7 +19013,7 @@
 		(layer "User.1")
 		(uuid "64a5bba2-9c64-4a95-8650-8217c5352311")
 		(pts
-			(xy 223.174765 107.078659) (xy 82.174765 107.078659)
+			(xy 223.239765 108.268659) (xy 82.239765 108.268659)
 		)
 		(height 4)
 		(orientation 0)
@@ -18477,7 +19035,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "141"
-			(at 152.674765 109.928659 0)
+			(at 152.739765 111.118659 0)
 			(layer "User.1")
 			(uuid "64a5bba2-9c64-4a95-8650-8217c5352311")
 			(effects
@@ -18493,7 +19051,7 @@
 		(layer "User.1")
 		(uuid "925f1c9e-62d4-4f3d-b01a-0bb377c9cded")
 		(pts
-			(xy 223.174765 107.078659) (xy 223.174765 63.078659)
+			(xy 223.249765 108.178659) (xy 223.174765 63.078659)
 		)
 		(height 6)
 		(orientation 1)
@@ -18514,8 +19072,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "44"
-			(at 228.024765 85.078659 90)
+		(gr_text "45.1"
+			(at 228.099765 85.628659 90)
 			(layer "User.1")
 			(uuid "925f1c9e-62d4-4f3d-b01a-0bb377c9cded")
 			(effects
@@ -18524,30 +19082,6 @@
 					(thickness 0.15)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "44e07ff5-baf5-40e8-801c-415ec23c8f16")
-		(members "0ae6dec6-7939-4635-8d11-52b0a4006eed" "1e868202-3eff-4ec3-b4fd-1fb8fde10ab7"
-			"25d7a2a5-43a9-4af7-a8a3-2259419462d2" "288c919a-3918-462c-b37a-20a585fc5cea"
-			"2bdb06a1-a34d-4390-8a25-29b089dd7613" "31b1249d-c189-498b-86c1-b305d633afad"
-			"34b32870-c4b2-4e5a-af52-381912c65a63" "380d7fb2-41ee-4e3e-ba90-ad0b95453409"
-			"38ed76d6-0fb7-4cb2-a3d8-ac1fa769f408" "441ce540-fb99-4611-b9ed-bd6309681089"
-			"465d2465-45a0-4947-b708-4d674cfcf98e" "48e3bc8e-81e2-4d38-abd5-a605c2b507e5"
-			"49d8033e-cfd1-4f4a-8edf-2d6ecda1d9fb" "4ed94dac-bd15-4b0e-b8ec-b7e5cb213ad1"
-			"5aa5e4fd-7c7a-4e1b-95b8-f0337d50c2ae" "6713ab9c-36b4-40a2-808e-ed2e2b9b24d6"
-			"6f8550bd-a6a6-4bf8-b5ca-8e88af0b565d" "78226bba-9a80-4ca0-aa08-e06565d60154"
-			"7d5446fc-ecb6-4563-a861-08c8feecc187" "7fcbcea5-b01d-4551-bd01-8b0fe2ec8a89"
-			"8578df9f-4e62-49d3-9b06-768847a69109" "928717b8-e336-4404-9d66-3845bc949527"
-			"9ad86ef8-be8e-43bb-92ac-1ee7e72cd5fd" "9e247f92-639e-4f19-a3b4-968cde2dccc1"
-			"a0f4c5ce-3501-40e9-b5e6-b6233ac8a57f" "a1c09266-3b22-4312-8ce7-53f4d8f97846"
-			"a71c5985-864b-4d9e-bb49-83506c1e0d55" "a8f73597-7b3a-4991-923b-658dac225e96"
-			"b6a8cc1b-7bc2-47c7-b7f6-dea4aa7adb88" "b74c4b25-b3ea-410f-aa2e-ece2a00598ae"
-			"b79aa795-646d-4e0c-a528-b8275a2e0ad7" "c60c939c-42f5-41fc-ab2e-7edec6a156b0"
-			"c9551918-b5a7-4237-83a6-0e05694cac14" "dee29f2d-d9bd-4d41-9281-4b5945be5cfd"
-			"e2ceefb4-64f9-4e36-abcf-a6190cc6ddae" "e8b97711-87ab-4b5f-ba51-881c9623825a"
-			"f3b22cbc-ce15-4d8a-9069-d7add0ceb0e6" "fd33233e-efc0-4eda-b5e4-3aec23105fa9"
-			"fe84d53d-b183-4ce8-8594-552dd8912272" "ff192179-cacc-49d1-acdb-d86f2bddec77"
 		)
 	)
 	(group ""
