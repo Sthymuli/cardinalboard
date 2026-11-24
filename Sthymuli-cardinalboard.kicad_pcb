@@ -16320,7 +16320,7 @@
 			(uuid "91a85239-3749-4215-ad29-ccaa4845ba87")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Sensor.3dshapes/Avago_ADPS-9960.step"
+		(model "${KIPRJMOD}/lib/sthymuli_jlc.3dshapes/APDS-9960.step"
 			(offset
 				(xyz 0 0 0)
 			)
