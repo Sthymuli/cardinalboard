@@ -17,7 +17,10 @@ COPPER="F.Cu${INNER:+,$INNER},B.Cu"
 OUT=exports
 # temporary board next to the real one so ${KIPRJMOD} model paths still resolve
 ONBOARD=_ci_onboard.kicad_pcb
-trap 'rm -f "$ONBOARD" _ci_onboard.kicad_prl _ci_onboard.kicad_pro' EXIT
+# STEP file name suffix per board piece, largest first (pieces are separated at
+# the mouse-bite tabs); extra pieces get _part<N>
+PIECE_SUFFIXES=("" "_sensor")
+trap 'rm -f "$ONBOARD" _ci_onboard.kicad_prl _ci_onboard.kicad_pro _ci_piece*' EXIT
 
 mkdir -p "$OUT"
 
@@ -35,8 +38,16 @@ echo "== Board copy without the parts parked outside the outline"
 $KICAD_PYTHON scripts/onboard_board.py "$NAME.kicad_pcb" "$ONBOARD"
 cp "$NAME.kicad_pro" _ci_onboard.kicad_pro
 
-echo "== 3D STEP"
-$KICAD_CLI pcb export step "$ONBOARD" --output "$OUT/$NAME.step" --force --subst-models
+echo "== 3D STEP, one file per board (split at the mouse-bite tabs)"
+rm -f _ci_piece*
+$KICAD_PYTHON scripts/split_board.py "$NAME.kicad_pcb" _ci_piece > /dev/null
+k=0
+for piece in $(ls _ci_piece*.kicad_pcb | sort -V); do
+  suffix=${PIECE_SUFFIXES[$k]-_part$k}
+  cp "$NAME.kicad_pro" "${piece%.kicad_pcb}.kicad_pro"
+  $KICAD_CLI pcb export step "$piece" --output "$OUT/$NAME$suffix.step" --force --subst-models
+  k=$((k + 1))
+done
 
 echo "== 3D renders"
 for side in top bottom; do
