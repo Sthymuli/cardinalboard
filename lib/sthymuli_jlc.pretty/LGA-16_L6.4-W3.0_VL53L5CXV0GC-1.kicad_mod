@@ -50,7 +50,7 @@
 	(fp_line (start 3.20 -1.50) (end -3.20 -1.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -3.20 -1.50) (end -3.20 1.50) (layer F.CrtYd) (width 0.05))
 	(fp_line (start -3.20 1.50) (end 3.20 1.50) (layer F.CrtYd) (width 0.05))
-	(model "C:/Users/Nathann/OneDrive/ClawdDrive/Electronique/Sthymuli-cardinalboard/lib/sthymuli_jlc.3dshapes/LGA-16_L6.4-W3.0_VL53L5CXV0GC-1.wrl"
+	(model "${KIPRJMOD}/lib/sthymuli_jlc.3dshapes/LGA-16_L6.4-W3.0_VL53L5CXV0GC-1.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

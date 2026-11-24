@@ -43,7 +43,7 @@
 	(fp_line (start 37.75 10.50) (end -37.75 10.50) (layer F.CrtYd) (width 0.05))
 	(fp_poly (pts (xy 31.115000 -0.254000) (xy 31.115000 0.254000) (xy 33.147000 0.254000) (xy 33.147000 -0.127000) (xy 33.147000 -0.254000) (xy 31.115000 -0.254000)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
 	(fp_poly (pts (xy 31.877000 1.016000) (xy 32.385000 1.016000) (xy 32.385000 -1.016000) (xy 32.004000 -1.016000) (xy 31.877000 -1.016000) (xy 31.877000 1.016000)) (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS"))
-	(model "C:/Users/Nathann/OneDrive/ClawdDrive/Electronique/Sthymuli-cardinalboard/lib/sthymuli_jlc.3dshapes/BAT-TH_BH-18650-A1AJ006.wrl"
+	(model "${KIPRJMOD}/lib/sthymuli_jlc.3dshapes/BAT-TH_BH-18650-A1AJ006.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
