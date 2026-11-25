@@ -8550,7 +8550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20d4b824-f612-4a04-b991-29f44e7a1b54")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 92.456 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8632,7 +8632,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8808,7 +8808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25ddf810-ed70-4183-9412-5091e2dfed6c")
-		(property "Reference" "D2"
+		(property "Reference" "D7"
 			(at 176.276 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8890,7 +8890,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9164,7 +9164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e7edcc9-1d1d-4411-bee1-1de024018659")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 125.476 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9246,7 +9246,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9263,7 +9263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fc4c6d8-9be2-43a7-828c-d0ea039e5f8e")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 158.496 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,7 +9345,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11481,7 +11481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5994c141-0911-40f7-a421-07efd676e79a")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 241.3 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11621,7 +11621,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12029,7 +12029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "689d353e-d341-40e4-b36f-510d1ea74e63")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 141.986 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12111,7 +12111,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13848,8 +13848,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f928498-94b5-440f-b489-97e9a6e2850e")
-		(property "Reference" "U1"
-			(at 248.412 91.694 0)
+		(property "Reference" "U3"
+			(at 249.174 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13941,7 +13941,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -14506,7 +14506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9569f3ac-3fd5-47a0-a85e-913490f8fbed")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 108.966 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14588,7 +14588,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16242,7 +16242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c84df24f-d18e-47fe-add9-63bb09ca7451")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 140.716 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16354,7 +16354,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17559,7 +17559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f23d892a-e2ec-4018-88f4-19051ea6f773")
-		(property "Reference" "MIC2"
+		(property "Reference" "MIC1"
 			(at 148.59 95.2449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17656,7 +17656,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "MIC2")
+					(reference "MIC1")
 					(unit 1)
 				)
 			)

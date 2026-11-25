@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|156167183|101874366|7c5e947e-bf69-49c5-85b6-232a1c7db98c|00000000-0000-0000-0000-000000000000",
+          "bottom-side mirror of J3: silk clipped at the board edge (header overhangs), pin-1 arrow beside pad 1"
+        ]
+      ],
       "meta": {
         "version": 2
       },
