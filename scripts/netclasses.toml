@@ -1,0 +1,23 @@
+# Net classes for the cardinal board, sized from current and voltage.
+# After editing, run:  python3 scripts/netclass_rules.py   (with KiCad closed)
+# Nets not listed stay in Default (signals and +3V3 sensors; 0.2 mm carries about 1 A here).
+
+[design]
+project = "Sthymuli-cardinalboard"
+temp_rise_c = 20     # allowed track temperature rise at the design current
+min_track_mm = 0.15  # narrowest neck-down the exceptions may ask for
+round_mm = 0.05      # widths are rounded up (class) or down (neck-down) to this step
+
+[[class]]
+name = "PWR_2A"
+current_a = 2
+voltage_v = 4.2
+# The 18650 cell to the motherboard; its 2 A hold PTC (F401..F404) is on the motherboard.
+nets = ["BAT+", "BAT-"]
+
+[[class]]
+name = "PWR_1A"
+current_a = 1
+voltage_v = 5
+# 12 x WS2812B at up to 60 mA each = 0.72 A, plus the return of everything on GND.
+nets = ["+5V", "GND"]

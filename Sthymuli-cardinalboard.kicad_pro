@@ -214,7 +214,9 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.25,
+        0.55,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -531,6 +533,42 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 2
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_1A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 2
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_2A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.55,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 2
       }
     ],
     "meta": {
@@ -538,7 +576,24 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR_2A",
+        "pattern": "BAT+"
+      },
+      {
+        "netclass": "PWR_2A",
+        "pattern": "BAT-"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "PWR_1A",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -788,7 +843,7 @@
         "uuid": "a56c3281-40b7-4048-95ca-500415dc80a4"
       }
     ],
-    "used_designators": "#PWR9,#PWR30,#PWR33-34,#PWR37-40,C19-24,D2,D8-12,D401-404,JP1,R405-408",
+    "used_designators": "#FLG7-10,#PWR9,#PWR30-31,#PWR33-34,#PWR37-40,C19-24,D2,D8-12,D401-404,J3,JP1,R405-408",
     "variants": []
   },
   "sheets": [

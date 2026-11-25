@@ -3370,7 +3370,7 @@
 		)
 		(uuid "416a2278-7fde-401f-a004-a79230aaf38d")
 	)
-	(text "We solder J1 directly in the hold of J2"
+	(text "We solder J1 directly in the hole of J2"
 		(exclude_from_sim no)
 		(at 200.914 78.486 0)
 		(effects
@@ -3460,7 +3460,7 @@
 	)
 	(text "LED"
 		(exclude_from_sim no)
-		(at 114.808 122.174 0)
+		(at 118.618 125.984 0)
 		(effects
 			(font
 				(size 7.62 7.62)
@@ -3472,7 +3472,7 @@
 	)
 	(text "break-off stub\nresolder at 90°"
 		(exclude_from_sim no)
-		(at 218.186 112.268 0)
+		(at 183.134 112.268 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3481,7 +3481,7 @@
 		(uuid "fda61b37-b696-4796-82c9-a51466e8e49c")
 	)
 	(junction
-		(at 226.06 129.54)
+		(at 229.87 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0045a12f-e202-4f1a-a560-d4c7f9185124")
@@ -3493,7 +3493,7 @@
 		(uuid "033b99f4-fb4e-46ef-bce5-f7a1e6900bad")
 	)
 	(junction
-		(at 142.24 157.48)
+		(at 146.05 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a38e8fa-5dde-448d-a787-e1fcce441d89")
@@ -3511,7 +3511,7 @@
 		(uuid "15f6b125-1250-40f2-9af6-adcbd4ea0645")
 	)
 	(junction
-		(at 109.22 129.54)
+		(at 113.03 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b18d4e4-55ca-4100-8f37-928e45c5cfd7")
@@ -3523,19 +3523,19 @@
 		(uuid "1ccd4923-20d8-40c6-9dc6-c1d48fc6f105")
 	)
 	(junction
-		(at 209.55 157.48)
+		(at 213.36 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d5beee2-f19a-4f50-847f-23d61a8d493e")
 	)
 	(junction
-		(at 229.87 129.54)
+		(at 233.68 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e931d6a-7fc1-4355-9dd3-45d023194bb4")
 	)
 	(junction
-		(at 242.57 129.54)
+		(at 246.38 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23dbee38-ac34-4c6d-ac81-32012154fb42")
@@ -3571,7 +3571,7 @@
 		(uuid "3252137f-8806-4381-b0c3-a3b2667c6eb9")
 	)
 	(junction
-		(at 242.57 157.48)
+		(at 246.38 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ae59f92-ea35-44e9-b0e1-374d410200b5")
@@ -3583,7 +3583,13 @@
 		(uuid "3c7c871e-4276-44d4-8857-33dc8f709f3d")
 	)
 	(junction
-		(at 193.04 129.54)
+		(at 210.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e5994f6-f40e-41b2-b810-95771a0d21f8")
+	)
+	(junction
+		(at 196.85 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45fcef56-81f9-44aa-ad79-05fec7fe419b")
@@ -3595,7 +3601,7 @@
 		(uuid "49df251d-73f7-4a80-9b1a-158223519a18")
 	)
 	(junction
-		(at 92.71 129.54)
+		(at 96.52 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e4e81db-7c38-41fc-94b1-4dc4f7bd07b3")
@@ -3613,34 +3619,28 @@
 		(uuid "50afa44a-3603-4926-8457-b0f24f44bbe2")
 	)
 	(junction
-		(at 146.05 129.54)
+		(at 149.86 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5213616e-3f9d-461a-8f62-305d78ce9881")
 	)
 	(junction
-		(at 176.53 157.48)
+		(at 180.34 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5250a7c9-3d35-49fa-918f-9ba3759755a0")
 	)
 	(junction
-		(at 158.75 157.48)
+		(at 162.56 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "569845f9-0c52-4ac0-b50d-f78a6373a179")
 	)
 	(junction
-		(at 125.73 157.48)
+		(at 129.54 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e490223-a498-4529-a270-cc071c176fa9")
-	)
-	(junction
-		(at 217.17 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "602a666a-10c9-48b6-a4c6-1eb0114dceaf")
 	)
 	(junction
 		(at 219.71 72.39)
@@ -3649,19 +3649,19 @@
 		(uuid "6cc1ed65-9084-4041-8703-68c4561a2a67")
 	)
 	(junction
-		(at 226.06 157.48)
+		(at 229.87 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76e22a5e-e30d-4ac4-b6ee-f054bd657dd4")
 	)
 	(junction
-		(at 196.85 129.54)
+		(at 200.66 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b23f908-ac98-4cff-84e3-f731ad17446c")
 	)
 	(junction
-		(at 113.03 129.54)
+		(at 116.84 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d5edb33-1569-447a-b6a6-22b860c6bb8b")
@@ -3673,13 +3673,13 @@
 		(uuid "85603937-6ce4-4719-9165-2d94d270ed72")
 	)
 	(junction
-		(at 125.73 129.54)
+		(at 129.54 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88da5c7e-b52e-4f1b-8fcc-4eb21d709821")
 	)
 	(junction
-		(at 193.04 157.48)
+		(at 196.85 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89044f5c-c2d3-496e-a056-fef7d8def9e8")
@@ -3709,13 +3709,13 @@
 		(uuid "8ffab308-65cf-4eea-a9ba-fde1d5f0f1bd")
 	)
 	(junction
-		(at 76.2 129.54)
+		(at 80.01 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "937ac12a-c60e-42e6-9603-1567e4601707")
 	)
 	(junction
-		(at 180.34 129.54)
+		(at 184.15 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9532e58c-0f1b-4515-9998-69183f496e4d")
@@ -3769,7 +3769,7 @@
 		(uuid "b40fcbf4-3ac2-4712-906e-40660c66b181")
 	)
 	(junction
-		(at 129.54 129.54)
+		(at 133.35 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b51118bc-d3fe-4b62-94d3-e9c1a1e64037")
@@ -3793,13 +3793,13 @@
 		(uuid "c0304ed6-2e64-4215-8e09-61e210c43b48")
 	)
 	(junction
-		(at 259.08 129.54)
+		(at 262.89 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c033f235-0421-42f4-b555-c6e51b0072a1")
 	)
 	(junction
-		(at 76.2 157.48)
+		(at 80.01 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0ff698d-999c-4820-8b02-4fb4e069669e")
@@ -3817,13 +3817,13 @@
 		(uuid "c99eb77b-eb6f-4fee-901a-61f21104f31b")
 	)
 	(junction
-		(at 109.22 157.48)
+		(at 113.03 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf984802-f6ad-41a0-976b-7b2e853684b3")
 	)
 	(junction
-		(at 142.24 129.54)
+		(at 146.05 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d007ab51-fa0a-4b5b-9fc0-94b2e6fcadfb")
@@ -3841,7 +3841,7 @@
 		(uuid "da4745b8-59c9-41c3-abf3-9e26cb966453")
 	)
 	(junction
-		(at 246.38 129.54)
+		(at 250.19 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc9734b0-1d91-4daa-afd6-7cfe3377b697")
@@ -3853,37 +3853,37 @@
 		(uuid "dcecb399-8d6d-4519-bdd2-78eb11f3ee08")
 	)
 	(junction
-		(at 213.36 129.54)
+		(at 217.17 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2ebccf6-9d0b-444c-8cdb-0125a566ae7e")
 	)
 	(junction
-		(at 209.55 129.54)
+		(at 213.36 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7d79ae5-de62-445f-9517-18873cb722ab")
 	)
 	(junction
-		(at 80.01 129.54)
+		(at 83.82 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e94213d6-fdfd-4f93-8fee-d9cd5fcfe5cd")
 	)
 	(junction
-		(at 96.52 129.54)
+		(at 100.33 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea9e48c6-712a-4159-837b-e01814f19f44")
 	)
 	(junction
-		(at 162.56 129.54)
+		(at 166.37 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee668c75-c5f1-4363-9f3d-a6d4b5331e32")
 	)
 	(junction
-		(at 92.71 157.48)
+		(at 96.52 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f013436c-1408-4264-a043-163353b44da1")
@@ -3895,25 +3895,31 @@
 		(uuid "f6455ba0-9fcb-4994-9fed-ba43a860525a")
 	)
 	(junction
+		(at 222.25 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f841c73f-888d-4780-9144-feac382809e4")
+	)
+	(junction
 		(at 262.89 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fda006bf-ed94-43b5-af52-e3d7f4415b34")
 	)
 	(junction
-		(at 210.82 72.39)
+		(at 212.09 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe517e07-eedc-4239-9ae0-a355cd55d84a")
 	)
 	(junction
-		(at 158.75 129.54)
+		(at 162.56 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff81d233-ce7c-4f8a-bd5e-449140d425a5")
 	)
 	(junction
-		(at 176.53 129.54)
+		(at 180.34 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffcde4ed-fdd2-4ab5-899f-4bae15a102b4")
@@ -3936,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 157.48) (xy 142.24 157.48)
+			(xy 129.54 161.29) (xy 146.05 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4006,26 +4012,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 72.39) (xy 217.17 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f67e2e-6883-4dd9-a0f7-239deed6273e")
-	)
-	(wire
-		(pts
-			(xy 187.96 88.9) (xy 187.96 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06a3c855-b250-4426-b390-ac3f9ce5c2dc")
-	)
-	(wire
-		(pts
 			(xy 223.52 60.96) (xy 222.25 60.96)
 		)
 		(stroke
@@ -4036,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 156.21) (xy 109.22 157.48)
+			(xy 113.03 160.02) (xy 113.03 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4046,7 +4032,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 130.81) (xy 113.03 129.54)
+			(xy 116.84 134.62) (xy 116.84 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4076,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 129.54) (xy 259.08 140.97)
+			(xy 262.89 133.35) (xy 262.89 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4096,7 +4082,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 156.21) (xy 176.53 157.48)
+			(xy 209.55 119.38) (xy 212.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10180303-df07-4fa7-99f8-904b5b99e710")
+	)
+	(wire
+		(pts
+			(xy 180.34 160.02) (xy 180.34 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4116,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 157.48) (xy 209.55 157.48)
+			(xy 196.85 161.29) (xy 213.36 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4146,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 129.54) (xy 125.73 129.54)
+			(xy 116.84 133.35) (xy 129.54 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 148.59) (xy 185.42 148.59)
+			(xy 187.96 152.4) (xy 189.23 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4206,7 +4202,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 12.7) (xy 200.66 119.38)
+			(xy 199.39 12.7) (xy 199.39 127)
 		)
 		(stroke
 			(width 0)
@@ -4216,7 +4212,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 129.54) (xy 193.04 140.97)
+			(xy 196.85 133.35) (xy 196.85 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4236,7 +4232,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 129.54) (xy 142.24 140.97)
+			(xy 146.05 133.35) (xy 146.05 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4246,7 +4242,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 130.81) (xy 162.56 129.54)
+			(xy 166.37 134.62) (xy 166.37 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4256,7 +4252,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 148.59) (xy 201.93 148.59)
+			(xy 204.47 152.4) (xy 205.74 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4266,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 138.43) (xy 262.89 139.7)
+			(xy 266.7 142.24) (xy 266.7 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4286,7 +4282,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 129.54) (xy 226.06 129.54)
+			(xy 212.09 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ee15f0-4968-4d91-ac6f-9ec6b3962841")
+	)
+	(wire
+		(pts
+			(xy 217.17 133.35) (xy 229.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4302,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 129.54) (xy 242.57 140.97)
+			(xy 246.38 133.35) (xy 246.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4326,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 129.54) (xy 113.03 129.54)
+			(xy 113.03 133.35) (xy 116.84 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4346,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 129.54) (xy 158.75 140.97)
+			(xy 162.56 133.35) (xy 162.56 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +4382,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 138.43) (xy 162.56 139.7)
+			(xy 166.37 142.24) (xy 166.37 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4396,7 +4402,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 157.48) (xy 259.08 157.48)
+			(xy 246.38 161.29) (xy 262.89 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4436,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 156.21) (xy 193.04 157.48)
+			(xy 196.85 160.02) (xy 196.85 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4456,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 148.59) (xy 218.44 148.59)
+			(xy 220.98 152.4) (xy 222.25 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4476,7 +4482,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 157.48) (xy 193.04 157.48)
+			(xy 180.34 161.29) (xy 196.85 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4486,7 +4492,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 129.54) (xy 242.57 129.54)
+			(xy 233.68 133.35) (xy 246.38 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4502,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 138.43) (xy 113.03 139.7)
+			(xy 116.84 142.24) (xy 116.84 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4536,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 104.14) (xy 214.63 101.6)
+			(xy 186.69 104.14) (xy 186.69 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4546,7 +4552,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 138.43) (xy 96.52 139.7)
+			(xy 100.33 142.24) (xy 100.33 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4586,16 +4592,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 187.96 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0a632b-e847-4016-818e-45ed7f1992a6")
-	)
-	(wire
-		(pts
 			(xy 125.73 58.42) (xy 138.43 58.42)
 		)
 		(stroke
@@ -4606,7 +4602,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 129.54) (xy 92.71 129.54)
+			(xy 83.82 133.35) (xy 96.52 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4646,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 130.81) (xy 96.52 129.54)
+			(xy 100.33 134.62) (xy 100.33 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4686,7 +4682,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 157.48) (xy 226.06 157.48)
+			(xy 213.36 161.29) (xy 229.87 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4706,7 +4702,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 129.54) (xy 176.53 129.54)
+			(xy 166.37 133.35) (xy 180.34 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4716,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 138.43) (xy 146.05 139.7)
+			(xy 149.86 142.24) (xy 149.86 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4726,7 +4722,7 @@
 	)
 	(polyline
 		(pts
-			(xy 200.66 119.38) (xy 284.48 119.38)
+			(xy 199.39 127) (xy 283.21 127)
 		)
 		(stroke
 			(width 0)
@@ -4766,7 +4762,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 190.5 93.98)
+			(xy 212.09 88.9) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +4782,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 129.54) (xy 259.08 129.54)
+			(xy 266.7 133.35) (xy 262.89 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4816,7 +4812,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 71.12) (xy 210.82 72.39)
+			(xy 212.09 71.12) (xy 212.09 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +4822,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 129.54) (xy 158.75 129.54)
+			(xy 166.37 133.35) (xy 162.56 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4836,7 +4832,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 157.48) (xy 125.73 157.48)
+			(xy 113.03 161.29) (xy 129.54 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4846,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 129.54) (xy 246.38 129.54)
+			(xy 246.38 133.35) (xy 250.19 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4866,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 129.54) (xy 259.08 129.54)
+			(xy 250.19 133.35) (xy 262.89 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4946,17 +4942,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 217.17 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0f0680-61f2-4bfa-b0f1-898dc9dc53b7")
-	)
-	(wire
-		(pts
-			(xy 246.38 138.43) (xy 246.38 139.7)
+			(xy 250.19 142.24) (xy 250.19 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4996,7 +4982,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 156.21) (xy 76.2 158.75)
+			(xy 80.01 160.02) (xy 80.01 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5013,6 +4999,16 @@
 			(type default)
 		)
 		(uuid "66057544-20c9-4254-a1f6-6f1bd1acae72")
+	)
+	(wire
+		(pts
+			(xy 212.09 116.84) (xy 209.55 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a13992-d6fa-4f61-b289-d4e32dbf7d36")
 	)
 	(wire
 		(pts
@@ -5036,6 +5032,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 72.39) (xy 223.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b82c5b1-fc71-4be1-a822-ff0ce79879c8")
+	)
+	(wire
+		(pts
 			(xy 123.19 45.72) (xy 135.89 45.72)
 		)
 		(stroke
@@ -5046,7 +5052,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 72.39) (xy 210.82 72.39)
+			(xy 207.01 72.39) (xy 215.9 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5056,7 +5062,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 138.43) (xy 229.87 139.7)
+			(xy 233.68 142.24) (xy 233.68 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5116,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 138.43) (xy 129.54 139.7)
+			(xy 133.35 142.24) (xy 133.35 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5156,7 +5162,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 138.43) (xy 196.85 139.7)
+			(xy 200.66 142.24) (xy 200.66 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5173,6 +5179,16 @@
 			(type default)
 		)
 		(uuid "788e593d-0534-4350-9bf3-cd08e3296f2f")
+	)
+	(wire
+		(pts
+			(xy 209.55 96.52) (xy 212.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b29cdcc-7c3b-46eb-aded-9681c46f1040")
 	)
 	(wire
 		(pts
@@ -5236,7 +5252,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 130.81) (xy 196.85 129.54)
+			(xy 200.66 134.62) (xy 200.66 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5292,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 214.63 91.44)
+			(xy 186.69 88.9) (xy 186.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5306,7 +5322,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 129.54) (xy 158.75 129.54)
+			(xy 149.86 133.35) (xy 162.56 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5316,7 +5332,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 129.54) (xy 142.24 129.54)
+			(xy 133.35 133.35) (xy 146.05 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5396,16 +5412,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 101.6) (xy 190.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c0c703-00c2-4716-bbdc-af81ad2b07eb")
-	)
-	(wire
-		(pts
 			(xy 35.56 35.56) (xy 44.45 35.56)
 		)
 		(stroke
@@ -5413,6 +5419,16 @@
 			(type default)
 		)
 		(uuid "9213791b-b163-486b-952a-70d452510049")
+	)
+	(wire
+		(pts
+			(xy 210.82 86.36) (xy 209.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933b4c33-8932-48b9-9030-5ce3f60c78c0")
 	)
 	(wire
 		(pts
@@ -5426,7 +5442,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 129.54) (xy 180.34 129.54)
+			(xy 180.34 133.35) (xy 184.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 157.48) (xy 242.57 157.48)
+			(xy 229.87 161.29) (xy 246.38 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5456,7 +5472,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 156.21) (xy 142.24 157.48)
+			(xy 146.05 160.02) (xy 146.05 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5486,7 +5502,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 129.54) (xy 229.87 129.54)
+			(xy 229.87 133.35) (xy 233.68 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5496,7 +5512,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 148.59) (xy 251.46 148.59)
+			(xy 254 152.4) (xy 255.27 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5526,7 +5542,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 130.81) (xy 213.36 129.54)
+			(xy 217.17 134.62) (xy 217.17 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5536,7 +5552,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 129.54) (xy 176.53 140.97)
+			(xy 180.34 133.35) (xy 180.34 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5576,7 +5592,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 156.21) (xy 226.06 157.48)
+			(xy 229.87 160.02) (xy 229.87 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5596,7 +5612,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 96.52) (xy 212.09 96.52)
+			(xy 186.69 96.52) (xy 189.23 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 129.54 129.54)
+			(xy 129.54 133.35) (xy 133.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5616,7 +5632,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 157.48) (xy 92.71 157.48)
+			(xy 80.01 161.29) (xy 96.52 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5626,7 +5642,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 93.98) (xy 212.09 93.98)
+			(xy 186.69 93.98) (xy 189.23 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +5652,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 130.81) (xy 262.89 129.54)
+			(xy 266.7 134.62) (xy 266.7 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 129.54) (xy 80.01 129.54)
+			(xy 80.01 133.35) (xy 83.82 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +5672,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 148.59) (xy 234.95 148.59)
+			(xy 237.49 152.4) (xy 238.76 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +5742,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 148.59) (xy 267.97 148.59)
+			(xy 270.51 152.4) (xy 271.78 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5756,7 +5772,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 99.06) (xy 190.5 99.06)
+			(xy 212.09 93.98) (xy 209.55 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5766,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 148.59) (xy 134.62 148.59)
+			(xy 137.16 152.4) (xy 138.43 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5776,7 +5792,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 91.44) (xy 212.09 91.44)
+			(xy 186.69 91.44) (xy 189.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5806,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 156.21) (xy 125.73 157.48)
+			(xy 129.54 160.02) (xy 129.54 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5816,7 +5832,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 138.43) (xy 80.01 139.7)
+			(xy 83.82 142.24) (xy 83.82 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5836,7 +5852,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 138.43) (xy 213.36 139.7)
+			(xy 217.17 142.24) (xy 217.17 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5856,7 +5872,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 157.48) (xy 176.53 157.48)
+			(xy 162.56 161.29) (xy 180.34 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5876,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 129.54) (xy 193.04 129.54)
+			(xy 184.15 133.35) (xy 196.85 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5886,7 +5902,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 190.5 96.52)
+			(xy 212.09 91.44) (xy 209.55 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5896,7 +5912,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 190.5 91.44)
+			(xy 234.95 111.76) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb798b5-bc48-42cc-948f-c62c3c766074")
+	)
+	(wire
+		(pts
+			(xy 212.09 86.36) (xy 210.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5906,7 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 99.06) (xy 212.09 99.06)
+			(xy 186.69 99.06) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5916,7 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 130.81) (xy 129.54 129.54)
+			(xy 133.35 134.62) (xy 133.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5946,7 +5972,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 130.81) (xy 180.34 129.54)
+			(xy 184.15 134.62) (xy 184.15 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5956,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 129.54) (xy 109.22 140.97)
+			(xy 113.03 133.35) (xy 113.03 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5966,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 129.54) (xy 92.71 129.54)
+			(xy 100.33 133.35) (xy 96.52 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5986,7 +6012,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 130.81) (xy 229.87 129.54)
+			(xy 233.68 134.62) (xy 233.68 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6026,7 +6052,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 148.59) (xy 68.58 148.59)
+			(xy 71.12 152.4) (xy 72.39 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6036,7 +6062,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 148.59) (xy 151.13 148.59)
+			(xy 153.67 152.4) (xy 154.94 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6056,7 +6082,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 101.6) (xy 212.09 101.6)
+			(xy 186.69 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6116,7 +6142,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 156.21) (xy 209.55 157.48)
+			(xy 212.09 111.76) (xy 209.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2148790-4414-4b46-a3da-ad9647ecc100")
+	)
+	(wire
+		(pts
+			(xy 213.36 160.02) (xy 213.36 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6126,7 +6162,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 129.54) (xy 92.71 140.97)
+			(xy 96.52 133.35) (xy 96.52 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6136,7 +6172,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 129.54) (xy 226.06 140.97)
+			(xy 229.87 133.35) (xy 229.87 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6146,7 +6182,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 156.21) (xy 158.75 157.48)
+			(xy 162.56 160.02) (xy 162.56 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6166,7 +6202,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 130.81) (xy 80.01 129.54)
+			(xy 234.95 92.71) (xy 234.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6726619-1abf-43ec-a64d-e7af45c1ec35")
+	)
+	(wire
+		(pts
+			(xy 83.82 134.62) (xy 83.82 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6186,7 +6232,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 129.54) (xy 193.04 129.54)
+			(xy 200.66 133.35) (xy 196.85 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6206,7 +6252,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 130.81) (xy 146.05 129.54)
+			(xy 149.86 134.62) (xy 149.86 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6246,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 156.21) (xy 259.08 157.48)
+			(xy 262.89 160.02) (xy 262.89 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6286,7 +6332,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 125.73 140.97)
+			(xy 129.54 133.35) (xy 129.54 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6296,7 +6342,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 148.59) (xy 101.6 148.59)
+			(xy 104.14 152.4) (xy 105.41 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6316,7 +6362,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 59.69) (xy 207.01 59.69)
+			(xy 212.09 59.69) (xy 207.01 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6326,7 +6372,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 157.48) (xy 158.75 157.48)
+			(xy 146.05 161.29) (xy 162.56 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6336,7 +6382,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 63.5) (xy 210.82 59.69)
+			(xy 209.55 109.22) (xy 212.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c8d97d-5541-46d9-a66c-f70711acfda1")
+	)
+	(wire
+		(pts
+			(xy 212.09 63.5) (xy 212.09 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6346,7 +6402,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 129.54) (xy 209.55 129.54)
+			(xy 200.66 133.35) (xy 213.36 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6356,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 148.59) (xy 85.09 148.59)
+			(xy 87.63 152.4) (xy 88.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6366,7 +6422,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 129.54) (xy 213.36 129.54)
+			(xy 213.36 133.35) (xy 217.17 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6376,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 156.21) (xy 242.57 157.48)
+			(xy 246.38 160.02) (xy 246.38 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6386,7 +6442,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 129.54) (xy 146.05 129.54)
+			(xy 146.05 133.35) (xy 149.86 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6416,7 +6472,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 156.21) (xy 92.71 157.48)
+			(xy 96.52 160.02) (xy 96.52 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6436,7 +6492,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 148.59) (xy 118.11 148.59)
+			(xy 120.65 152.4) (xy 121.92 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6466,7 +6522,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 130.81) (xy 246.38 129.54)
+			(xy 250.19 134.62) (xy 250.19 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6476,7 +6532,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 148.59) (xy 168.91 148.59)
+			(xy 170.18 152.4) (xy 172.72 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6486,7 +6542,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 129.54) (xy 109.22 129.54)
+			(xy 100.33 133.35) (xy 113.03 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6506,7 +6562,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 138.43) (xy 180.34 139.7)
+			(xy 184.15 142.24) (xy 184.15 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6546,7 +6602,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 157.48) (xy 109.22 157.48)
+			(xy 96.52 161.29) (xy 113.03 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6556,23 +6612,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 129.54) (xy 76.2 140.97)
+			(xy 80.01 133.35) (xy 80.01 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fb85b6f9-ba15-492b-827c-928c6dbb22fa")
-	)
-	(wire
-		(pts
-			(xy 210.82 72.39) (xy 215.9 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf84a49-3fc9-42bc-aec1-6ce566f9f416")
 	)
 	(wire
 		(pts
@@ -6596,13 +6642,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 218.44 72.39)
+			(xy 215.9 72.39) (xy 218.44 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fcebf27a-1fcc-4655-a34e-439d398924ec")
+	)
+	(wire
+		(pts
+			(xy 210.82 85.09) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5c323b-6392-4b16-bf15-960d6ceb5c43")
 	)
 	(wire
 		(pts
@@ -6626,7 +6682,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 129.54) (xy 209.55 140.97)
+			(xy 213.36 133.35) (xy 213.36 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6706,6 +6762,30 @@
 			)
 		)
 	)
+	(global_label "3v3"
+		(shape input)
+		(at 205.74 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a5a6b41-d200-43da-b47e-a02d9e179f0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.74 27.9182 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MK_P"
 		(shape input)
 		(at 43.18 55.88 180)
@@ -6754,7 +6834,31 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "ACC_INT_ADDON"
+		(shape input)
+		(at 212.09 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b27bbd0-6421-4129-a4e3-91f5d57dea32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.8315 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SCL_ADDON"
 		(shape input)
 		(at 233.68 97.79 180)
 		(fields_autoplaced yes)
@@ -6766,7 +6870,31 @@
 		)
 		(uuid "362c42b3-f712-441f-b6d1-827e3334f002")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.1872 97.79 0)
+			(at 219.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND_2"
+		(shape input)
+		(at 273.05 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3810081c-2893-44e5-9870-a8b6f573cafb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.05 68.7228 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6780,7 +6908,7 @@
 	)
 	(global_label "DOUT"
 		(shape output)
-		(at 267.97 148.59 0)
+		(at 271.78 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6790,7 +6918,7 @@
 		)
 		(uuid "3a7b2aad-9ea9-44bd-9a1b-7f0da06e1f35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.8538 148.59 0)
+			(at 279.6638 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6826,19 +6954,19 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SDA_ADDON"
 		(shape bidirectional)
-		(at 187.96 93.98 180)
+		(at 212.09 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4b518c63-64c3-4965-82c1-1b7ccc22ee79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.2954 93.98 0)
+			(at 227.0118 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6846,7 +6974,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -6900,17 +7028,17 @@
 	)
 	(global_label "SCL"
 		(shape output)
-		(at 214.63 96.52 0)
+		(at 186.69 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5a9f5e08-1cbb-47d5-8474-69e1157c0be4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.1228 96.52 0)
+			(at 180.1972 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6918,7 +7046,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -6946,7 +7074,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SDA_ADDON"
 		(shape bidirectional)
 		(at 233.68 100.33 180)
 		(fields_autoplaced yes)
@@ -6958,7 +7086,7 @@
 		)
 		(uuid "689d7b1c-3720-43b1-84c4-03ff7677e5fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.0154 100.33 0)
+			(at 218.7582 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +7122,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SCL_ADDON"
 		(shape input)
 		(at 262.89 48.26 0)
 		(fields_autoplaced yes)
@@ -7006,7 +7134,7 @@
 		)
 		(uuid "6e7cf4ea-e26f-4034-96e9-372a6b494bb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.3828 48.26 0)
+			(at 276.64 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7042,19 +7170,19 @@
 			)
 		)
 	)
-	(global_label "ACC_INT"
+	(global_label "ACC_INT_ADDON"
 		(shape input)
-		(at 187.96 99.06 180)
+		(at 212.09 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "78ba0e37-2b58-4737-b3a3-e84ef2fba504")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.4757 99.06 0)
+			(at 229.8315 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7062,23 +7190,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape output)
-		(at 187.96 96.52 180)
+	(global_label "GND_2"
+		(shape input)
+		(at 223.52 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "98361c01-f58f-4197-aa42-99338c8d651b")
+		(uuid "7ddc9843-494f-422e-9beb-2d4456e3ac7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4672 96.52 0)
+			(at 232.5528 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,7 +7214,103 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND_2"
+		(shape input)
+		(at 212.09 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80d552c6-5c4c-4673-94db-67c81ab53fd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.1228 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 281.94 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86e8efcd-057d-4160-a69c-8eb4cd9b5830")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.94 31.7282 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA_ADDON"
+		(shape bidirectional)
+		(at 212.09 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9089489f-3b2b-4d58-b18e-770a13c69813")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.0118 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SCL_ADDON"
+		(shape output)
+		(at 212.09 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98361c01-f58f-4197-aa42-99338c8d651b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7140,7 +7364,31 @@
 	)
 	(global_label "ACC_INT"
 		(shape input)
-		(at 214.63 99.06 0)
+		(at 186.69 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8e4d0b5-1bee-42c1-9ba9-86bb3bd3b4c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.2057 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 266.7 87.63 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7148,9 +7396,33 @@
 			)
 			(justify left)
 		)
-		(uuid "a8e4d0b5-1bee-42c1-9ba9-86bb3bd3b4c1")
+		(uuid "b7144896-1e04-4b13-8c33-5e2eb86b0427")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1143 99.06 0)
+			(at 266.7 81.2582 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 212.09 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5418318-b769-47dd-9857-1c912637843b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.4618 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,9 +7458,9 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 214.63 93.98 0)
+	(global_label "SCL_ADDON"
+		(shape output)
+		(at 212.09 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7196,9 +7468,33 @@
 			)
 			(justify left)
 		)
-		(uuid "d38d0ecf-3b47-47de-ad6b-1051cbcbd33b")
+		(uuid "ca09cf5a-fb95-40d7-aa9d-169eae22e9ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.2946 93.98 0)
+			(at 225.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "3v3"
+		(shape input)
+		(at 212.09 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd0a6d24-5115-4f08-a2b2-78a9efdce975")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.4618 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7212,6 +7508,54 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
+		(at 186.69 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d38d0ecf-3b47-47de-ad6b-1051cbcbd33b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.0254 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND_2"
+		(shape input)
+		(at 247.65 113.03 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e60bb15d-5b19-4f4b-9802-270f028b0a8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.65 122.0628 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA_ADDON"
+		(shape bidirectional)
 		(at 262.89 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7222,7 +7566,7 @@
 		)
 		(uuid "e6ba7643-f4e7-4e5c-ba7e-ed6403a551cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.5546 50.8 0)
+			(at 277.8118 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,7 +7628,7 @@
 	)
 	(global_label "DIN"
 		(shape input)
-		(at 67.31 148.59 180)
+		(at 71.12 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7294,7 +7638,7 @@
 		)
 		(uuid "f3a25410-0daa-4829-8b8d-044fea4c1760")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.1195 148.59 0)
+			(at 64.9295 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,6 +7647,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GND_2"
+		(shape input)
+		(at 212.09 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4df86d2-53ac-411e-9f51-3e434997d615")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.1228 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7920,7 +8288,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 139.7 0)
+		(at 217.17 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7930,7 +8298,7 @@
 		(dnp no)
 		(uuid "100f60f1-7a5d-44e4-a1e2-2131c318bf25")
 		(property "Reference" "#PWR037"
-			(at 213.36 146.05 0)
+			(at 217.17 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7941,7 +8309,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.646 139.7 0)
+			(at 219.456 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7951,7 +8319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 139.7 0)
+			(at 217.17 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7962,7 +8330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 139.7 0)
+			(at 217.17 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7973,7 +8341,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 139.7 0)
+			(at 217.17 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7990,83 +8358,6 @@
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1064d6aa-5e6f-413d-98ff-5d1aa7aeeb5e")
-		(property "Reference" "#PWR05"
-			(at 217.17 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.456 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "505fab0b-e9fb-4dc1-bf48-8126ac86c065")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8151,7 +8442,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 76.2 148.59 0)
+		(at 80.01 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8161,7 +8452,7 @@
 		(dnp no)
 		(uuid "1be5e88b-18f4-43f9-bf5f-2e7cf55f9f3b")
 		(property "Reference" "D1"
-			(at 72.136 142.494 0)
+			(at 75.946 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8171,7 +8462,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 81.28 154.94 0)
+			(at 85.09 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8181,7 +8472,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 77.47 156.21 0)
+			(at 81.28 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8193,7 +8484,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 78.74 158.115 0)
+			(at 82.55 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8205,7 +8496,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 76.2 148.59 0)
+			(at 80.01 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8216,7 +8507,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 78.74 158.115 0)
+			(at 82.55 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,7 +8541,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 92.71 148.59 0)
+		(at 96.52 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8260,7 +8551,7 @@
 		(dnp no)
 		(uuid "20d4b824-f612-4a04-b991-29f44e7a1b54")
 		(property "Reference" "D3"
-			(at 88.646 142.494 0)
+			(at 92.456 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8270,7 +8561,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 97.79 154.94 0)
+			(at 101.6 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8280,7 +8571,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 93.98 156.21 0)
+			(at 97.79 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8292,7 +8583,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 95.25 158.115 0)
+			(at 99.06 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8304,7 +8595,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 92.71 148.59 0)
+			(at 96.52 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8315,7 +8606,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 95.25 158.115 0)
+			(at 99.06 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,86 +8798,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 187.96 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "236d0e93-20d2-419e-b97b-d3cd84ffe8d3")
-		(property "Reference" "#PWR025"
-			(at 187.96 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 184.658 85.344 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 187.96 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1c31a8b-6246-4850-b97e-c54444a2d6bd")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 176.53 148.59 0)
+		(at 180.34 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8596,7 +8809,7 @@
 		(dnp no)
 		(uuid "25ddf810-ed70-4183-9412-5091e2dfed6c")
 		(property "Reference" "D2"
-			(at 172.466 142.494 0)
+			(at 176.276 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8606,7 +8819,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 181.61 154.94 0)
+			(at 185.42 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8616,7 +8829,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 177.8 156.21 0)
+			(at 181.61 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8628,7 +8841,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 179.07 158.115 0)
+			(at 182.88 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8640,7 +8853,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 176.53 148.59 0)
+			(at 180.34 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8651,7 +8864,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 179.07 158.115 0)
+			(at 182.88 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,7 +8898,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 104.14 0)
+		(at 186.69 104.14 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8695,7 +8909,7 @@
 		(dnp no)
 		(uuid "27237d37-9e8c-48e5-84ef-3c967f8bf2de")
 		(property "Reference" "#PWR028"
-			(at 214.63 110.49 0)
+			(at 186.69 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8706,7 +8920,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 216.916 104.14 0)
+			(at 184.404 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8716,7 +8930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 104.14 0)
+			(at 186.69 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8727,7 +8941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 104.14 0)
+			(at 186.69 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8738,7 +8952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 104.14 0)
+			(at 186.69 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8761,8 +8975,110 @@
 		)
 	)
 	(symbol
+		(lib_id "sthymuli_jlc:Conn_01x05")
+		(at 204.47 114.3 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a4f670f-3aa8-4df4-aa8e-abbfab52efa4")
+		(property "Reference" "J3"
+			(at 205.74 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 211.074 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sthymuli_jlc:HDR-SMD_5P-P2.54-H-M-W13.3-N"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Pin-Headers_XKB-Connection-X6511WRS-05H-C60D48_C5242198.html"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1x5 2.54 mm male header, SMD right angle (XKB X6511WRS-05H-C60D48). Its pins are soldered into J2 holes."
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5242198"
+			(at 204.47 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0586753d-5477-4f69-a8ec-72d42b866f64")
+		)
+		(pin "2"
+			(uuid "fa0f2040-7644-4290-a05e-446874858817")
+		)
+		(pin "3"
+			(uuid "bdadb2aa-8bb1-462b-bcdb-6ef30d1f452e")
+		)
+		(pin "5"
+			(uuid "69487507-7e02-457a-800a-584b96d088b1")
+		)
+		(pin "1"
+			(uuid "d66f0a82-035c-4039-a18c-eef33c08bc43")
+		)
+		(instances
+			(project "Sthymuli-cardinalboard"
+				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 146.05 139.7 0)
+		(at 149.86 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8772,7 +9088,7 @@
 		(dnp no)
 		(uuid "2afb6bee-a180-4b69-92b7-34a4c83acb78")
 		(property "Reference" "#PWR014"
-			(at 146.05 146.05 0)
+			(at 149.86 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8783,7 +9099,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.336 139.7 0)
+			(at 152.146 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8793,7 +9109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 139.7 0)
+			(at 149.86 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8804,7 +9120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 139.7 0)
+			(at 149.86 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +9131,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 139.7 0)
+			(at 149.86 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8838,85 +9154,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 273.05 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e6f38c4-422b-4dfb-be08-7a2e9c35beca")
-		(property "Reference" "#PWR06"
-			(at 273.05 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 275.336 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdfe3470-1fba-4816-a181-38ef6b698009")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 125.73 148.59 0)
+		(at 129.54 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8926,7 +9165,7 @@
 		(dnp no)
 		(uuid "2e7edcc9-1d1d-4411-bee1-1de024018659")
 		(property "Reference" "D5"
-			(at 121.666 142.494 0)
+			(at 125.476 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8936,7 +9175,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 130.81 154.94 0)
+			(at 134.62 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8946,7 +9185,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 127 156.21 0)
+			(at 130.81 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +9197,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 128.27 158.115 0)
+			(at 132.08 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8970,7 +9209,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 125.73 148.59 0)
+			(at 129.54 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8981,7 +9220,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 128.27 158.115 0)
+			(at 132.08 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9015,7 +9254,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 158.75 148.59 0)
+		(at 162.56 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9025,7 +9264,7 @@
 		(dnp no)
 		(uuid "2fc4c6d8-9be2-43a7-828c-d0ea039e5f8e")
 		(property "Reference" "D7"
-			(at 154.686 142.494 0)
+			(at 158.496 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9035,7 +9274,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 163.83 154.94 0)
+			(at 167.64 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9045,7 +9284,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 160.02 156.21 0)
+			(at 163.83 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9057,7 +9296,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 161.29 158.115 0)
+			(at 165.1 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,7 +9308,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 158.75 148.59 0)
+			(at 162.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,7 +9319,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 161.29 158.115 0)
+			(at 165.1 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9114,7 +9353,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 129.54 134.62 0)
+		(at 133.35 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9125,7 +9364,7 @@
 		(fields_autoplaced yes)
 		(uuid "327521c0-76cb-4164-b7c3-d3fa05375c74")
 		(property "Reference" "C11"
-			(at 132.08 132.0799 0)
+			(at 135.89 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9136,7 +9375,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 132.08 134.62 0)
+			(at 135.89 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9147,7 +9386,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 127.762 134.62 90)
+			(at 131.572 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9397,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9169,7 +9408,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9180,7 +9419,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,7 +9430,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9202,7 +9441,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9213,7 +9452,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9224,7 +9463,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,7 +9474,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9246,7 +9485,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9257,7 +9496,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9268,7 +9507,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9279,7 +9518,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9290,7 +9529,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 132.08 137.16 0)
+			(at 135.89 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9301,7 +9540,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9312,7 +9551,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9323,7 +9562,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 129.54 134.62 0)
+			(at 133.35 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9428,7 +9667,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 139.7 0)
+		(at 200.66 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9438,7 +9677,7 @@
 		(dnp no)
 		(uuid "34f3a546-16e8-4a3b-af16-8282ba38e329")
 		(property "Reference" "#PWR034"
-			(at 196.85 146.05 0)
+			(at 200.66 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9449,7 +9688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.136 139.7 0)
+			(at 202.946 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9459,7 +9698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 139.7 0)
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9470,7 +9709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 139.7 0)
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,7 +9720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 139.7 0)
+			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,7 +9744,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 262.89 134.62 0)
+		(at 266.7 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9516,7 +9755,7 @@
 		(fields_autoplaced yes)
 		(uuid "34ff055f-0597-4eab-be32-460d5a381b20")
 		(property "Reference" "C24"
-			(at 265.43 132.0799 0)
+			(at 269.24 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9527,7 +9766,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 265.43 134.62 0)
+			(at 269.24 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9538,7 +9777,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 261.112 134.62 90)
+			(at 264.922 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9788,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9560,7 +9799,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9571,7 +9810,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9582,7 +9821,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9593,7 +9832,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9604,7 +9843,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9615,7 +9854,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9626,7 +9865,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9637,7 +9876,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9648,7 +9887,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9659,7 +9898,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9670,7 +9909,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9681,7 +9920,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 265.43 137.16 0)
+			(at 269.24 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9692,7 +9931,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,7 +9942,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9714,7 +9953,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 262.89 134.62 0)
+			(at 266.7 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9741,7 +9980,8 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:Conn_01x05")
-		(at 195.58 96.52 0)
+		(at 204.47 91.44 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9751,7 +9991,7 @@
 		(dnp no)
 		(uuid "394e6801-67c1-498f-8c9b-1d5cfb925c2d")
 		(property "Reference" "J1"
-			(at 194.31 88.392 0)
+			(at 205.74 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9762,7 +10002,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 188.976 104.14 0)
+			(at 211.074 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9773,7 +10013,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:HDR-SMD_5P-P2.54-H-M-W13.3-N"
-			(at 195.58 96.52 0)
+			(at 204.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9784,7 +10024,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Pin-Headers_XKB-Connection-X6511WRS-05H-C60D48_C5242198.html"
-			(at 195.58 96.52 0)
+			(at 204.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9795,7 +10035,7 @@
 			)
 		)
 		(property "Description" "1x5 2.54 mm male header, SMD right angle (XKB X6511WRS-05H-C60D48). Its pins are soldered into J2 holes."
-			(at 195.58 96.52 0)
+			(at 204.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9806,7 +10046,7 @@
 			)
 		)
 		(property "LCSC" "C5242198"
-			(at 195.58 96.52 0)
+			(at 204.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9842,7 +10082,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 162.56 134.62 0)
+		(at 166.37 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9853,7 +10093,7 @@
 		(fields_autoplaced yes)
 		(uuid "395e024a-0090-40c6-b974-000975c2cace")
 		(property "Reference" "C13"
-			(at 165.1 132.0799 0)
+			(at 168.91 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9864,7 +10104,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 165.1 134.62 0)
+			(at 168.91 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9875,7 +10115,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 160.782 134.62 90)
+			(at 164.592 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9886,7 +10126,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9897,7 +10137,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9908,7 +10148,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9919,7 +10159,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9930,7 +10170,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9941,7 +10181,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9952,7 +10192,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9963,7 +10203,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9974,7 +10214,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9985,7 +10225,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9996,7 +10236,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10007,7 +10247,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10018,7 +10258,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 165.1 137.16 0)
+			(at 168.91 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10029,7 +10269,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10040,7 +10280,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,7 +10291,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 162.56 134.62 0)
+			(at 166.37 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10071,84 +10311,6 @@
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 205.74 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ac0bfa2-9c01-419b-874a-7b0683d7e98a")
-		(property "Reference" "#PWR019"
-			(at 205.74 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 202.438 30.734 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 205.74 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7043053b-ff37-44ba-bf65-b027e0dfd541")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10812,7 +10974,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 213.36 134.62 0)
+		(at 217.17 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10823,7 +10985,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bfa24ec-eb52-4033-a1a4-5245476d1049")
 		(property "Reference" "C21"
-			(at 215.9 132.0799 0)
+			(at 219.71 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10834,7 +10996,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 215.9 134.62 0)
+			(at 219.71 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10845,7 +11007,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 211.582 134.62 90)
+			(at 215.392 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10856,7 +11018,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10867,7 +11029,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10878,7 +11040,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,7 +11051,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10900,7 +11062,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10911,7 +11073,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10922,7 +11084,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10933,7 +11095,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10944,7 +11106,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10955,7 +11117,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10966,7 +11128,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10977,7 +11139,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10988,7 +11150,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 215.9 137.16 0)
+			(at 219.71 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10999,7 +11161,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11010,7 +11172,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11021,7 +11183,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 213.36 134.62 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11467,7 +11629,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 210.82 67.31 0)
+		(at 212.09 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11477,7 +11639,7 @@
 		(dnp no)
 		(uuid "5bcf5705-a73a-4080-a513-1608ce3123a3")
 		(property "Reference" "C2"
-			(at 208.026 65.278 0)
+			(at 209.296 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11488,7 +11650,7 @@
 			)
 		)
 		(property "Value" "4.7uF 16V"
-			(at 211.328 64.77 0)
+			(at 208.534 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11499,7 +11661,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 209.042 67.31 90)
+			(at 210.312 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11510,7 +11672,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A475KO8NNNC_C19666.pdf"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11521,7 +11683,7 @@
 			)
 		)
 		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11532,7 +11694,7 @@
 			)
 		)
 		(property "LCSC" "C19666"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11543,7 +11705,7 @@
 			)
 		)
 		(property "Stock" "4246728"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11554,7 +11716,7 @@
 			)
 		)
 		(property "Price" "0.013USD"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11565,7 +11727,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11576,7 +11738,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11587,7 +11749,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11598,7 +11760,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11609,7 +11771,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11620,7 +11782,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11631,7 +11793,7 @@
 			)
 		)
 		(property "Part" "CL10A475KO8NNNC"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11642,7 +11804,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 211.582 69.342 0)
+			(at 209.042 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11653,7 +11815,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11664,7 +11826,7 @@
 			)
 		)
 		(property "Capacitance" "4.7uF"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11675,7 +11837,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 210.82 67.31 0)
+			(at 212.09 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11858,7 +12020,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 142.24 148.59 0)
+		(at 146.05 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11868,7 +12030,7 @@
 		(dnp no)
 		(uuid "689d353e-d341-40e4-b36f-510d1ea74e63")
 		(property "Reference" "D6"
-			(at 138.176 142.494 0)
+			(at 141.986 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11878,7 +12040,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 147.32 154.94 0)
+			(at 151.13 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11888,7 +12050,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 143.51 156.21 0)
+			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11900,7 +12062,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 144.78 158.115 0)
+			(at 148.59 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11912,7 +12074,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 142.24 148.59 0)
+			(at 146.05 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11923,7 +12085,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 144.78 158.115 0)
+			(at 148.59 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11957,7 +12119,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 246.38 134.62 0)
+		(at 250.19 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11968,7 +12130,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ab89d36-c398-45f6-8144-8186c5d6e2a1")
 		(property "Reference" "C23"
-			(at 248.92 132.0799 0)
+			(at 252.73 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11979,7 +12141,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 248.92 134.62 0)
+			(at 252.73 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11990,7 +12152,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 244.602 134.62 90)
+			(at 248.412 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12001,7 +12163,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12012,7 +12174,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,7 +12185,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12034,7 +12196,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12045,7 +12207,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12056,7 +12218,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12067,7 +12229,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12078,7 +12240,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12089,7 +12251,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12100,7 +12262,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12111,7 +12273,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12122,7 +12284,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12133,7 +12295,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 248.92 137.16 0)
+			(at 252.73 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12144,7 +12306,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12155,7 +12317,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12166,7 +12328,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 246.38 134.62 0)
+			(at 250.19 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12186,84 +12348,6 @@
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 266.7 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ac5f462-19db-46b9-b556-5e6c1a4ea85e")
-		(property "Reference" "#PWR029"
-			(at 266.7 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 263.398 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 266.7 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e89bbad-d032-46cf-9fc6-90397c6e005a")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12507,7 +12591,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 209.55 148.59 0)
+		(at 213.36 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12517,7 +12601,7 @@
 		(dnp no)
 		(uuid "6caffb3c-a3bc-4c28-8a22-1a925a1e5357")
 		(property "Reference" "D9"
-			(at 205.486 142.494 0)
+			(at 209.296 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12527,7 +12611,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 214.63 154.94 0)
+			(at 218.44 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12537,7 +12621,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 210.82 156.21 0)
+			(at 214.63 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12549,7 +12633,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 212.09 158.115 0)
+			(at 215.9 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12561,7 +12645,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 209.55 148.59 0)
+			(at 213.36 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12572,7 +12656,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 212.09 158.115 0)
+			(at 215.9 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12606,7 +12690,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 180.34 134.62 0)
+		(at 184.15 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12617,7 +12701,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d6eef7d-d7af-4a36-8995-fd60060d5969")
 		(property "Reference" "C19"
-			(at 182.88 132.0799 0)
+			(at 186.69 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12628,7 +12712,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 182.88 134.62 0)
+			(at 186.69 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12639,7 +12723,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 178.562 134.62 90)
+			(at 182.372 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12650,7 +12734,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12661,7 +12745,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12672,7 +12756,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12683,7 +12767,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12694,7 +12778,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12705,7 +12789,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12716,7 +12800,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12727,7 +12811,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12738,7 +12822,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12749,7 +12833,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12760,7 +12844,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12771,7 +12855,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +12866,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 182.88 137.16 0)
+			(at 186.69 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12793,7 +12877,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12804,7 +12888,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12815,7 +12899,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 180.34 134.62 0)
+			(at 184.15 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12842,7 +12926,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 242.57 148.59 0)
+		(at 246.38 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12852,7 +12936,7 @@
 		(dnp no)
 		(uuid "7555d1d5-0f87-4260-8488-fa05acc0f5e8")
 		(property "Reference" "D11"
-			(at 238.506 142.494 0)
+			(at 242.316 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12862,7 +12946,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 247.65 154.94 0)
+			(at 251.46 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12872,7 +12956,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 243.84 156.21 0)
+			(at 247.65 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12884,7 +12968,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 245.11 158.115 0)
+			(at 248.92 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12896,7 +12980,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 242.57 148.59 0)
+			(at 246.38 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12907,7 +12991,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 245.11 158.115 0)
+			(at 248.92 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,9 +13024,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 104.14 0)
-		(mirror y)
+		(lib_id "power:PWR_FLAG")
+		(at 210.82 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12950,9 +13033,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7ca7c4e4-2793-4f6b-9212-9dea0499ebb0")
-		(property "Reference" "#PWR026"
-			(at 187.96 110.49 0)
+		(uuid "797ba3b0-a8e5-4edb-b0b3-894d0a5190f0")
+		(property "Reference" "#FLG07"
+			(at 210.82 83.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12962,8 +13045,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 185.674 104.14 0)
+		(property "Value" "PWR_FLAG"
+			(at 210.82 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12973,7 +13056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 104.14 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12984,7 +13067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 104.14 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12994,8 +13077,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 104.14 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13006,12 +13089,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "30060d59-a52b-49b5-b2ba-2d167183db6c")
+			(uuid "36b7ff60-67ec-482d-bef1-6f2dab418671")
 		)
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR026")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -13266,7 +13349,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 76.2 129.54 0)
+		(at 80.01 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13277,7 +13360,7 @@
 		(fields_autoplaced yes)
 		(uuid "87d37486-fdba-46f7-a3b7-418b8b929a48")
 		(property "Reference" "#PWR02"
-			(at 76.2 133.35 0)
+			(at 80.01 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13288,7 +13371,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 76.2 124.46 0)
+			(at 80.01 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13298,7 +13381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 129.54 0)
+			(at 80.01 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13309,7 +13392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 129.54 0)
+			(at 80.01 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13320,7 +13403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 129.54 0)
+			(at 80.01 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13344,7 +13427,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 139.7 0)
+		(at 184.15 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13354,7 +13437,7 @@
 		(dnp no)
 		(uuid "89b06366-ba47-4394-b82f-b17b5c084e81")
 		(property "Reference" "#PWR033"
-			(at 180.34 146.05 0)
+			(at 184.15 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13365,7 +13448,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.626 139.7 0)
+			(at 186.436 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13375,7 +13458,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 139.7 0)
+			(at 184.15 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13386,7 +13469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 139.7 0)
+			(at 184.15 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13397,7 +13480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 139.7 0)
+			(at 184.15 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13657,7 +13740,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 193.04 148.59 0)
+		(at 196.85 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13667,7 +13750,7 @@
 		(dnp no)
 		(uuid "8d3181df-a9fa-4f25-88ca-9dfe010df5ed")
 		(property "Reference" "D8"
-			(at 188.976 142.494 0)
+			(at 192.786 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13677,7 +13760,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 198.12 154.94 0)
+			(at 201.93 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13687,7 +13770,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 194.31 156.21 0)
+			(at 198.12 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13699,7 +13782,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 195.58 158.115 0)
+			(at 199.39 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13711,7 +13794,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 193.04 148.59 0)
+			(at 196.85 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13722,7 +13805,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 195.58 158.115 0)
+			(at 199.39 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13887,7 +13970,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 201.422 67.564 0)
+			(at 202.946 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14101,7 +14184,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 146.05 134.62 0)
+		(at 149.86 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14112,7 +14195,7 @@
 		(fields_autoplaced yes)
 		(uuid "93470021-9c7e-4514-8cb7-7b1f7d543b0d")
 		(property "Reference" "C12"
-			(at 148.59 132.0799 0)
+			(at 152.4 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14123,7 +14206,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 148.59 134.62 0)
+			(at 152.4 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14134,7 +14217,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 144.272 134.62 90)
+			(at 148.082 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14145,7 +14228,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14156,7 +14239,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14167,7 +14250,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14178,7 +14261,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14189,7 +14272,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,7 +14283,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14211,7 +14294,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14222,7 +14305,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14233,7 +14316,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14244,7 +14327,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14255,7 +14338,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14266,7 +14349,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14277,7 +14360,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 148.59 137.16 0)
+			(at 152.4 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14288,7 +14371,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14299,7 +14382,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14310,7 +14393,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 146.05 134.62 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14337,7 +14420,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 139.7 0)
+		(at 250.19 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14347,7 +14430,7 @@
 		(dnp no)
 		(uuid "94a7dabb-4e3b-4dcb-9374-3c97ab05fbe8")
 		(property "Reference" "#PWR039"
-			(at 246.38 146.05 0)
+			(at 250.19 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14358,7 +14441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.666 139.7 0)
+			(at 252.476 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14368,7 +14451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 139.7 0)
+			(at 250.19 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14379,7 +14462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 139.7 0)
+			(at 250.19 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14390,7 +14473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 139.7 0)
+			(at 250.19 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14414,7 +14497,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 109.22 148.59 0)
+		(at 113.03 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14424,7 +14507,7 @@
 		(dnp no)
 		(uuid "9569f3ac-3fd5-47a0-a85e-913490f8fbed")
 		(property "Reference" "D4"
-			(at 105.156 142.494 0)
+			(at 108.966 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14434,7 +14517,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 114.3 154.94 0)
+			(at 118.11 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14444,7 +14527,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 110.49 156.21 0)
+			(at 114.3 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14456,7 +14539,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 111.76 158.115 0)
+			(at 115.57 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14468,7 +14551,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 109.22 148.59 0)
+			(at 113.03 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14479,7 +14562,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 111.76 158.115 0)
+			(at 115.57 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14513,7 +14596,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 96.52 134.62 0)
+		(at 100.33 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14524,7 +14607,7 @@
 		(fields_autoplaced yes)
 		(uuid "99632d2e-c13e-4c00-86a2-fa536acfb6bd")
 		(property "Reference" "C9"
-			(at 99.06 132.0799 0)
+			(at 102.87 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14535,7 +14618,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 99.06 134.62 0)
+			(at 102.87 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14546,7 +14629,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 94.742 134.62 90)
+			(at 98.552 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14557,7 +14640,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14568,7 +14651,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14579,7 +14662,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14590,7 +14673,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14601,7 +14684,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14612,7 +14695,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14623,7 +14706,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14634,7 +14717,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14645,7 +14728,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14656,7 +14739,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14667,7 +14750,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14678,7 +14761,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14689,7 +14772,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 99.06 137.16 0)
+			(at 102.87 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14700,7 +14783,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,7 +14794,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14722,7 +14805,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 96.52 134.62 0)
+			(at 100.33 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14825,85 +14908,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 234.95 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c3e7c12-4c50-4ddd-ad9e-60090a9300fa")
-		(property "Reference" "#PWR032"
-			(at 234.95 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.24 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "abbb57c7-f8b4-4755-b9ec-bbba9e5b2649")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 226.06 148.59 0)
+		(at 229.87 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14913,7 +14919,7 @@
 		(dnp no)
 		(uuid "9f08e328-5446-46b9-941d-f2fa2b1122ca")
 		(property "Reference" "D10"
-			(at 221.996 142.494 0)
+			(at 225.806 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14923,7 +14929,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 231.14 154.94 0)
+			(at 234.95 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14933,7 +14939,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 227.33 156.21 0)
+			(at 231.14 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14945,7 +14951,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 228.6 158.115 0)
+			(at 232.41 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14957,7 +14963,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 226.06 148.59 0)
+			(at 229.87 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14968,7 +14974,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 228.6 158.115 0)
+			(at 232.41 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15078,85 +15084,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 247.65 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afa0e5b2-0b89-45e5-9a36-25d46ee2d543")
-		(property "Reference" "#PWR08"
-			(at 247.65 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 249.936 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50aedd54-5c1b-49e2-89c6-b1b976816b8d")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sthymuli_jlc:WS2812B")
-		(at 259.08 148.59 0)
+		(at 262.89 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15166,7 +15095,7 @@
 		(dnp no)
 		(uuid "b3fa2c67-9d63-4076-af25-80ac6d6f8c7c")
 		(property "Reference" "D12"
-			(at 255.016 142.494 0)
+			(at 258.826 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15176,7 +15105,7 @@
 			)
 		)
 		(property "Value" "WS2812B-V6"
-			(at 264.16 154.94 0)
+			(at 267.97 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15186,7 +15115,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 260.35 156.21 0)
+			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15198,7 +15127,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 261.62 158.115 0)
+			(at 265.43 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15210,7 +15139,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 259.08 148.59 0)
+			(at 262.89 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15221,7 +15150,7 @@
 			)
 		)
 		(property "LCSC" "C52917433"
-			(at 261.62 158.115 0)
+			(at 265.43 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15409,7 +15338,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 80.01 134.62 0)
+		(at 83.82 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15420,7 +15349,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb1c1059-d43e-42cb-8165-454e2731d60b")
 		(property "Reference" "C8"
-			(at 82.55 132.0799 0)
+			(at 86.36 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15431,7 +15360,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 82.55 134.62 0)
+			(at 86.36 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15442,7 +15371,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 78.232 134.62 90)
+			(at 82.042 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15453,7 +15382,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15464,7 +15393,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15475,7 +15404,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15486,7 +15415,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15497,7 +15426,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15508,7 +15437,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15519,7 +15448,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15530,7 +15459,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15541,7 +15470,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15552,7 +15481,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15563,7 +15492,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15574,7 +15503,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15585,7 +15514,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 82.55 137.16 0)
+			(at 86.36 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15596,7 +15525,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15607,7 +15536,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15618,7 +15547,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 80.01 134.62 0)
+			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15722,7 +15651,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 139.7 0)
+		(at 100.33 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15732,7 +15661,7 @@
 		(dnp no)
 		(uuid "be9fcb25-d642-4f23-92eb-d883069c7141")
 		(property "Reference" "#PWR07"
-			(at 96.52 146.05 0)
+			(at 100.33 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15743,7 +15672,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 98.806 139.7 0)
+			(at 102.616 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15753,7 +15682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 139.7 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15764,7 +15693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 139.7 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15775,7 +15704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 139.7 0)
+			(at 100.33 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15799,7 +15728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 139.7 0)
+		(at 233.68 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15809,7 +15738,7 @@
 		(dnp no)
 		(uuid "c081acff-7143-4033-83fa-8546a6543d6b")
 		(property "Reference" "#PWR038"
-			(at 229.87 146.05 0)
+			(at 233.68 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15820,7 +15749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.156 139.7 0)
+			(at 235.966 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15830,7 +15759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 139.7 0)
+			(at 233.68 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15841,7 +15770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 139.7 0)
+			(at 233.68 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15852,7 +15781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 139.7 0)
+			(at 233.68 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15876,7 +15805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 139.7 0)
+		(at 116.84 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15886,7 +15815,7 @@
 		(dnp no)
 		(uuid "c0a009da-6eb1-4ed5-9464-ab952aa38f23")
 		(property "Reference" "#PWR010"
-			(at 113.03 146.05 0)
+			(at 116.84 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15897,7 +15826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.316 139.7 0)
+			(at 119.126 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15907,7 +15836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 139.7 0)
+			(at 116.84 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15918,7 +15847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 139.7 0)
+			(at 116.84 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15929,7 +15858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 139.7 0)
+			(at 116.84 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15953,7 +15882,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 229.87 134.62 0)
+		(at 233.68 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15964,7 +15893,7 @@
 		(fields_autoplaced yes)
 		(uuid "c291b0c1-edfc-40b1-b621-44764f637f18")
 		(property "Reference" "C22"
-			(at 232.41 132.0799 0)
+			(at 236.22 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15975,7 +15904,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 232.41 134.62 0)
+			(at 236.22 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15986,7 +15915,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 228.092 134.62 90)
+			(at 231.902 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15997,7 +15926,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16008,7 +15937,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16019,7 +15948,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16030,7 +15959,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16041,7 +15970,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16052,7 +15981,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16063,7 +15992,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16074,7 +16003,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16085,7 +16014,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16096,7 +16025,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16107,7 +16036,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16118,7 +16047,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16129,7 +16058,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 232.41 137.16 0)
+			(at 236.22 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16140,7 +16069,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16151,7 +16080,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16162,7 +16091,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 229.87 134.62 0)
+			(at 233.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16432,84 +16361,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 281.94 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc13d903-8868-4682-a505-8665e1726b78")
-		(property "Reference" "#PWR020"
-			(at 281.94 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 278.638 34.544 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 281.94 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df08dd10-dd5c-4857-ac0d-adc713ba6b23")
-		)
-		(instances
-			(project "Sthymuli-cardinalboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "sthymuli_jlc:C")
 		(at 262.89 106.68 0)
 		(unit 1)
@@ -16747,7 +16598,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 113.03 134.62 0)
+		(at 116.84 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16758,7 +16609,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdc328b7-2d65-4307-a2cb-be0988f9729e")
 		(property "Reference" "C10"
-			(at 115.57 132.0799 0)
+			(at 119.38 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16769,7 +16620,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 115.57 134.62 0)
+			(at 119.38 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16780,7 +16631,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 111.252 134.62 90)
+			(at 115.062 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16791,7 +16642,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16802,7 +16653,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16813,7 +16664,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16824,7 +16675,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16835,7 +16686,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16846,7 +16697,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16857,7 +16708,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16868,7 +16719,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16879,7 +16730,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16890,7 +16741,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16901,7 +16752,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16912,7 +16763,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16923,7 +16774,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 115.57 137.16 0)
+			(at 119.38 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16934,7 +16785,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16945,7 +16796,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16956,7 +16807,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 113.03 134.62 0)
+			(at 116.84 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17075,7 +16926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 139.7 0)
+		(at 166.37 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17085,7 +16936,7 @@
 		(dnp no)
 		(uuid "d705f8bd-aec0-4149-b88a-52270cebc30e")
 		(property "Reference" "#PWR018"
-			(at 162.56 146.05 0)
+			(at 166.37 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17096,7 +16947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 164.846 139.7 0)
+			(at 168.656 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17106,7 +16957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 139.7 0)
+			(at 166.37 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17117,7 +16968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 139.7 0)
+			(at 166.37 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17128,7 +16979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 139.7 0)
+			(at 166.37 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17152,7 +17003,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:C")
-		(at 196.85 134.62 0)
+		(at 200.66 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17163,7 +17014,7 @@
 		(fields_autoplaced yes)
 		(uuid "d72ed8ef-ae30-4eeb-b59e-cb123ba66a30")
 		(property "Reference" "C20"
-			(at 199.39 132.0799 0)
+			(at 203.2 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17174,7 +17025,7 @@
 			)
 		)
 		(property "Value" "100nF 50V"
-			(at 199.39 134.62 0)
+			(at 203.2 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17185,7 +17036,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:C_0603_1608Metric"
-			(at 195.072 134.62 90)
+			(at 198.882 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17196,7 +17047,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17207,7 +17058,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17218,7 +17069,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17229,7 +17080,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17240,7 +17091,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17251,7 +17102,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17262,7 +17113,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17273,7 +17124,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17284,7 +17135,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17295,7 +17146,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17306,7 +17157,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17317,7 +17168,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17328,7 +17179,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 199.39 137.16 0)
+			(at 203.2 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17339,7 +17190,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17350,7 +17201,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17361,7 +17212,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 196.85 134.62 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17544,7 +17395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 158.75 0)
+		(at 80.01 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17554,7 +17405,7 @@
 		(dnp no)
 		(uuid "e57564b3-0b8a-493c-959f-ba409cd24355")
 		(property "Reference" "#PWR03"
-			(at 76.2 165.1 0)
+			(at 80.01 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17565,7 +17416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.486 158.75 0)
+			(at 82.296 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17575,7 +17426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 158.75 0)
+			(at 80.01 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17586,7 +17437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 158.75 0)
+			(at 80.01 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17597,7 +17448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 158.75 0)
+			(at 80.01 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17621,7 +17472,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 139.7 0)
+		(at 266.7 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17631,7 +17482,7 @@
 		(dnp no)
 		(uuid "eeb6f1ff-cf7a-4bb0-8e47-50e6910d863c")
 		(property "Reference" "#PWR040"
-			(at 262.89 146.05 0)
+			(at 266.7 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17642,7 +17493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.176 139.7 0)
+			(at 268.986 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17652,7 +17503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 139.7 0)
+			(at 266.7 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17663,7 +17514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 139.7 0)
+			(at 266.7 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17674,7 +17525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 139.7 0)
+			(at 266.7 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17813,8 +17664,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 214.63 88.9 0)
-		(mirror y)
+		(at 186.69 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17824,7 +17674,7 @@
 		(dnp no)
 		(uuid "f4c3b4e1-2465-4d73-9176-7d443a044a5e")
 		(property "Reference" "#PWR027"
-			(at 214.63 92.71 0)
+			(at 186.69 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17835,7 +17685,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 217.932 85.344 0)
+			(at 183.388 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17846,7 +17696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 88.9 0)
+			(at 186.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17857,7 +17707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 88.9 0)
+			(at 186.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17868,7 +17718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 214.63 88.9 0)
+			(at 186.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18076,7 +17926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 139.7 0)
+		(at 83.82 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18086,7 +17936,7 @@
 		(dnp no)
 		(uuid "fe11ca0f-b29d-4a29-8b1a-602ac4418472")
 		(property "Reference" "#PWR04"
-			(at 80.01 146.05 0)
+			(at 83.82 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18097,7 +17947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.296 139.7 0)
+			(at 86.106 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18107,7 +17957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 139.7 0)
+			(at 83.82 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18118,7 +17968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 139.7 0)
+			(at 83.82 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18129,7 +17979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 139.7 0)
+			(at 83.82 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18153,7 +18003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 139.7 0)
+		(at 133.35 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18163,7 +18013,7 @@
 		(dnp no)
 		(uuid "fee0cc3a-0345-4228-a817-f81241903a6f")
 		(property "Reference" "#PWR012"
-			(at 129.54 146.05 0)
+			(at 133.35 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18174,7 +18024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 131.826 139.7 0)
+			(at 135.636 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18184,7 +18034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 139.7 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18195,7 +18045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 139.7 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18206,7 +18056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 139.7 0)
+			(at 133.35 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18230,8 +18080,7 @@
 	)
 	(symbol
 		(lib_id "sthymuli_jlc:Conn_01x05")
-		(at 207.01 96.52 0)
-		(mirror y)
+		(at 194.31 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18241,7 +18090,7 @@
 		(dnp yes)
 		(uuid "ffaa1819-e351-41e2-acd0-6fe541bb0140")
 		(property "Reference" "J2"
-			(at 208.28 88.392 0)
+			(at 193.04 88.392 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18252,7 +18101,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 213.614 104.14 0)
+			(at 187.706 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18263,7 +18112,7 @@
 			)
 		)
 		(property "Footprint" "sthymuli_jlc:PinHeader_1x05_P2.54mm_Vertical"
-			(at 207.01 96.52 0)
+			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18274,7 +18123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 96.52 0)
+			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18285,7 +18134,7 @@
 			)
 		)
 		(property "Description" "Bare 1x5 holes: the pins of J1 header are soldered here. No part placed."
-			(at 207.01 96.52 0)
+			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18296,7 +18145,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 207.01 96.52 0)
+			(at 194.31 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
