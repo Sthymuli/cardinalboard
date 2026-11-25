@@ -1,5 +1,5 @@
-# Sthymuli-cardinalboard
-companion boardto the sthymuli motherboard
+# Cardinalboard
+smaller board that goes with [the motherboard](https://github.com/Sthymuli/motherboard)
 
 ## 3D view
 
