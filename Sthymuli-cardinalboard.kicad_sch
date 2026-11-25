@@ -3487,6 +3487,12 @@
 		(uuid "0045a12f-e202-4f1a-a560-d4c7f9185124")
 	)
 	(junction
+		(at 246.38 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "005412d2-6adb-4a6e-9566-96ac8fb7db1f")
+	)
+	(junction
 		(at 29.21 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3647,6 +3653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cc1ed65-9084-4041-8703-68c4561a2a67")
+	)
+	(junction
+		(at 210.82 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc7d7be-d608-470e-9035-02d1c39a6eea")
 	)
 	(junction
 		(at 229.87 161.29)
@@ -4200,6 +4212,16 @@
 		)
 		(uuid "1ca8630e-8786-4d93-87ba-b1e0f1f3d014")
 	)
+	(wire
+		(pts
+			(xy 246.38 111.76) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d57ae61-56c3-432e-83f7-a6baeb5c072f")
+	)
 	(polyline
 		(pts
 			(xy 199.39 12.7) (xy 199.39 127)
@@ -4732,6 +4754,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 96.52) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443d7d90-dd9f-4fe4-9f46-71bac820b1c0")
+	)
+	(wire
+		(pts
 			(xy 259.08 53.34) (xy 278.13 53.34)
 		)
 		(stroke
@@ -4892,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 111.76) (xy 247.65 113.03)
+			(xy 246.38 111.76) (xy 246.38 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5182,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 96.52) (xy 212.09 96.52)
+			(xy 209.55 96.52) (xy 210.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5912,7 +5944,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 111.76) (xy 247.65 111.76)
+			(xy 234.95 111.76) (xy 246.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6659,6 +6691,16 @@
 			(type default)
 		)
 		(uuid "fd5c323b-6392-4b16-bf15-960d6ceb5c43")
+	)
+	(wire
+		(pts
+			(xy 210.82 96.52) (xy 212.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddf189e-29d9-418e-99b9-300e31c8aa65")
 	)
 	(wire
 		(pts
@@ -7532,7 +7574,7 @@
 	)
 	(global_label "GND_2"
 		(shape input)
-		(at 247.65 113.03 270)
+		(at 246.38 113.03 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7542,7 +7584,7 @@
 		)
 		(uuid "e60bb15d-5b19-4f4b-9802-270f028b0a8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.65 122.0628 90)
+			(at 246.38 122.0628 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9988,7 +10030,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "394e6801-67c1-498f-8c9b-1d5cfb925c2d")
 		(property "Reference" "J1"
 			(at 205.74 83.312 0)
@@ -10973,6 +11015,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 210.82 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b87a8ba-b6a7-4af4-bc1b-bf50f16bcaed")
+		(property "Reference" "#FLG08"
+			(at 210.82 99.695 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 210.82 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5112379-56c1-4ea9-8d79-bb98524d4937")
+		)
+		(instances
+			(project "Sthymuli-cardinalboard"
+				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sthymuli_jlc:C")
 		(at 217.17 138.43 0)
 		(unit 1)
@@ -11388,7 +11507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54c1ea18-9e8f-4024-95b9-15073199e6a7")
-		(property "Reference" "D401"
+		(property "Reference" "D13"
 			(at 31.75 125.73 270)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11463,7 +11582,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D401")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -17751,7 +17870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f51bede2-9bd8-4e46-a7ed-2c28d6003c7e")
-		(property "Reference" "R405"
+		(property "Reference" "R4"
 			(at 31.75 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17826,7 +17945,7 @@
 		(instances
 			(project "Sthymuli-cardinalboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "R405")
+					(reference "R4")
 					(unit 1)
 				)
 			)
